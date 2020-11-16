@@ -73,7 +73,7 @@ license:        creative commons CC-BY-NC-SA
          <pos>0.05 0.325</pos>
          <size>0.9 0.6</size>
          <alignment>center</alignment>
-         <lineSpacing>1.5</lineSpacing>
+         <lineSpacing>1.6</lineSpacing>
          <selectorColor>333333ff</selectorColor>
          <selectedColor>ffffff</selectedColor>
          <primaryColor>999999</primaryColor>
