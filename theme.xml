@@ -26,7 +26,6 @@ license:        creative commons CC-BY-NC-SA
          <color>141414</color>
          <path>./_inc/images/space.png</path>
          <tile>true</tile>
-         <zIndex>1</zIndex>
       </image>
       <text name="logoText">
          <color>ffffff</color>
@@ -61,19 +60,17 @@ license:        creative commons CC-BY-NC-SA
    <view name="basic,detailed,video">
       <image name="logo">
          <origin>0.5 0.5</origin>
-         <pos>0.5 0.15</pos>
+         <pos>0.5 0.155</pos>
          <maxSize>0.4 0.15</maxSize>
-         <zIndex>200</zIndex>
       </image>
       <text name="logoText">
          <pos>0.05 0.1</pos>
          <size>0.9 0.075</size>
          <alignment>center</alignment>
          <fontSize>0.06</fontSize>
-         <zIndex>200</zIndex>
       </text>
       <textlist name="gamelist">
-         <pos>0.05 0.3</pos>
+         <pos>0.05 0.325</pos>
          <size>0.9 0.6</size>
          <alignment>center</alignment>
          <lineSpacing>1.5</lineSpacing>
@@ -83,7 +80,7 @@ license:        creative commons CC-BY-NC-SA
          <secondaryColor>999999</secondaryColor>
          <fontSize>0.05</fontSize>
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
-         <zIndex>200</zIndex>
+         <horizontalMargin>0.025</horizontalMargin>
       </textlist>
    </view>
 
@@ -97,20 +94,24 @@ license:        creative commons CC-BY-NC-SA
       <rating name="md_rating">
          <pos>1 1</pos>
       </rating>
+      <textlist name="gamelist">
+         <pos>0.05 0.325</pos>
+         <size>0.425 0.6</size>
+         <alignment>left</alignment>
+      </textlist>
       <image name="md_image">
-         <origin>0 0</origin>
-         <pos>1 1</pos>
-         <size>1 0</size>
-         <zIndex>100</zIndex>
+         <origin>0.5 0.5</origin>
+         <pos>0.7375 0.625</pos>
+         <maxSize>0.4 0.575</maxSize>
       </image>
-      <!--<image name="background-basic" extra="true">
-         <pos>0.05 0.3</pos>
-         <size>0.9 0.6</size>
-         <color>FF0000</color>
+      <image name="md_media_background" extra="true">
+         <origin>1 0</origin>
+         <pos>.95 0.325</pos>
+         <size>0.425 0.6</size>
+         <color>333333</color>
          <path>./_inc/images/space.png</path>
          <tile>true</tile>
-         <zIndex>199</zIndex>
-      </image>-->
+      </image>
    </view>
 
    <view name="video">
@@ -118,13 +119,16 @@ license:        creative commons CC-BY-NC-SA
          <origin>0 0</origin>
          <pos>1 1</pos>
       </image>
-      <video name="md_video">
+      <image name="md_image">
          <origin>0 0</origin>
          <pos>1 1</pos>
-         <size>1 0</size>
+      </image>
+      <video name="md_video">
+         <origin>0.5 0.5</origin>
+         <pos>0.7375 0.625</pos>
+         <maxSize>0.4 0.575</maxSize>
          <delay>0.0</delay>
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
-         <zIndex>110</zIndex>
       </video>
    </view>
 
