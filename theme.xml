@@ -104,11 +104,19 @@ license:        creative commons CC-BY-NC-SA
          <pos>0.7375 0.625</pos>
          <maxSize>0.4 0.575</maxSize>
       </image>
-      <image name="md_media_background" extra="true">
-         <origin>1 0</origin>
-         <pos>.95 0.325</pos>
+      <image name="md_media_bezel" extra="true">
+         <origin>0 0</origin>
+         <pos>0.525 0.325</pos>
          <size>0.425 0.6</size>
          <color>333333</color>
+         <path>./_inc/images/space.png</path>
+         <tile>true</tile>
+      </image>
+      <image name="md_media_screen" extra="true">
+         <origin>0 0</origin>
+         <pos>0.5375 0.3375</pos>
+         <size>0.4 0.575</size>
+         <color>000000</color>
          <path>./_inc/images/space.png</path>
          <tile>true</tile>
       </image>
@@ -131,5 +139,29 @@ license:        creative commons CC-BY-NC-SA
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
       </video>
    </view>
+
+   <view name="menu">
+      <menuText name="menutitle">
+      <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+      <fontSize>0.05</fontSize>
+      <color>ffffff</color>
+    </menuText>
+    <menuText name="menufooter">
+      <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+      <fontSize>0.04</fontSize>
+      <color>666666</color>
+    </menuText>
+    <menuText name="menutext">
+      <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+      <fontSize>0.05</fontSize>
+      <color>999999</color>
+      <separatorColor>222222</separatorColor>
+      <selectorColor>222222</selectorColor>
+      <selectedColor>FFFFFF</selectedColor>
+    </menuText>
+    <menuBackground name="menubg">
+      <color>141414</color>
+    </menuBackground>
+  </view>
 
 </theme>
