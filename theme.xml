@@ -82,18 +82,6 @@ license:        creative commons CC-BY-NC-SA
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <horizontalMargin>0.025</horizontalMargin>
       </textlist>
-      <image name="help-favorite" extra="true">
-         <origin>0 0</origin>
-         <pos>0.529166666666667 0.85</pos>
-         <size>0.2125 0.059375</size>
-         <path>./_inc/images/help-favorite.svg</path>
-      </image>
-      <image name="help-launch" extra="true">
-         <origin>0 0</origin>
-         <pos>0.754166666666667 0.85</pos>
-         <size>0.191666666666667 0.059375</size>
-         <path>./_inc/images/help-launch.svg</path>
-      </image>
    </view>
 
    <view name="detailed,video">
@@ -131,6 +119,18 @@ license:        creative commons CC-BY-NC-SA
          <color>000000</color>
          <path>./_inc/images/space.png</path>
          <tile>true</tile>
+      </image>
+      <image name="help-favorite" extra="true">
+         <origin>0 0</origin>
+         <pos>0.529166666666667 0.85</pos>
+         <size>0.2125 0.059375</size>
+         <path>./_inc/images/help-favorite.svg</path>
+      </image>
+      <image name="help-launch" extra="true">
+         <origin>0 0</origin>
+         <pos>0.754166666666667 0.85</pos>
+         <size>0.191666666666667 0.059375</size>
+         <path>./_inc/images/help-launch.svg</path>
       </image>
    </view>
 
