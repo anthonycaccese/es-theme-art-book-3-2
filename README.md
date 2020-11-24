@@ -5,15 +5,19 @@ Discussion is ongoing in this thread: https://retropie.org.uk/forum/topic/11728/
 ## Preview
 
 *Video View*
-![Video View](https://i.imgur.com/ojNjJCy.gif)
+
+![Video View](https://i.imgur.com/tgULIeJ.gif)
 
 *Detailed View*
+
 ![Detailed View](https://i.imgur.com/PZ9uPuO.png)
 
 *Basic View*
+
 ![Basic View](https://i.imgur.com/lQUhTmp.png)
 
 *System View*
+
 ![System View](https://i.imgur.com/x8JyqLr.gif)
 
 ## Details
