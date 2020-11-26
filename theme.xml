@@ -188,13 +188,6 @@ license:        creative commons CC-BY-NC-SA
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
       </text>
       <batteryIndicator name="batteryIndicator">
-         <full>./_inc/images/battery-100.svg</full>
-         <at75>./_inc/images/battery-75.svg</at75>
-         <at50>./_inc/images/battery-50.svg</at50>
-         <at25>./_inc/images/battery-25.svg</at25>
-         <empty>./_inc/images/battery-0.svg</empty>
-         <incharge>./_inc/images/battery-charging.svg</incharge>
-         <networkIcon>./_inc/images/network.svg</networkIcon>
          <color>444444</color>
       </batteryIndicator>
    </view>
