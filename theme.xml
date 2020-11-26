@@ -166,9 +166,9 @@ license:        creative commons CC-BY-NC-SA
       <menuText name="menutext">
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.05</fontSize>
-         <color>999999</color>
+         <color>444444</color>
          <separatorColor>222222</separatorColor>
-         <selectorColor>222222</selectorColor>
+         <selectorColor>555555</selectorColor>
          <selectedColor>FFFFFF</selectedColor>
       </menuText>
       <menuBackground name="menubg">
@@ -190,6 +190,9 @@ license:        creative commons CC-BY-NC-SA
       <batteryIndicator name="batteryIndicator">
          <color>444444</color>
       </batteryIndicator>
+      <controllerActivity name="controllerActivity">
+         <pos>1 1</pos>
+      </controllerActivity>
    </view>
 
 </theme>
