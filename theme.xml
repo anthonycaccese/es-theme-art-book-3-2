@@ -23,7 +23,7 @@ license:        creative commons CC-BY-NC-SA
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
-         <color>141414</color>
+         <color>111111</color>
          <path>./_inc/images/space.png</path>
          <tile>true</tile>
          <zIndex>1</zIndex>
@@ -38,7 +38,7 @@ license:        creative commons CC-BY-NC-SA
          <origin>0 0</origin>
          <pos>0 0</pos>
          <type>horizontal</type>
-         <color>141414</color>
+         <color>111111</color>
          <size>1 1</size>
          <logoSize>0.55 0.425</logoSize>
          <maxLogoCount>1</maxLogoCount>
@@ -46,7 +46,7 @@ license:        creative commons CC-BY-NC-SA
       <text name="systemInfo">
          <origin>0 0</origin>
          <pos>0 0.8</pos>
-         <backgroundColor>141414</backgroundColor>
+         <backgroundColor>111111</backgroundColor>
          <color>666666</color>
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.05</fontSize>
@@ -172,7 +172,7 @@ license:        creative commons CC-BY-NC-SA
          <selectedColor>FFFFFF</selectedColor>
       </menuText>
       <menuBackground name="menubg">
-         <color>141414</color>
+         <color>111111</color>
       </menuBackground>
    </view>
 
