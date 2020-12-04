@@ -7,7 +7,7 @@ license:        creative commons CC-BY-NC-SA
 <theme>
    <formatVersion>4</formatVersion>
 
-   <view name="system,basic,detailed,video">
+   <view name="system,basic,detailed,video,grid">
       <helpsystem name="help">
          <pos>1 1</pos>
       </helpsystem>
@@ -56,7 +56,7 @@ license:        creative commons CC-BY-NC-SA
       </text>
    </view>
 
-   <view name="basic,detailed,video">
+   <view name="basic,detailed,video,grid">
       <image name="logo">
          <origin>0.5 0.5</origin>
          <pos>0.5 0.155</pos>
@@ -147,9 +147,46 @@ license:        creative commons CC-BY-NC-SA
          <origin>0.5 0.5</origin>
          <pos>0.7375 0.570</pos>
          <maxSize>0.4 0.45</maxSize>
-         <delay>0.0</delay>
+         <delay>0.2</delay>
+         <showSnapshotDelay>true</showSnapshotDelay>
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
       </video>
+   </view>
+
+   <view name="grid">
+      <imagegrid name="gamegrid" ifHelpPrompts="false">
+         <pos>0.05 0.325</pos>
+         <size>0.9 0.60</size>
+         <margin>0 0</margin>
+         <padding>0 0 0 0</padding>
+         <autoLayout>3 1</autoLayout>
+         <autoLayoutSelectedZoom>1.0</autoLayoutSelectedZoom>
+         <centerSelection>false</centerSelection>
+         <animateSelection>false</animateSelection>
+         <scrollSound>./_inc/sounds/select.wav</scrollSound>
+      </imagegrid>
+      <gridtile name="default">
+         <padding>2 2</padding>
+         <backgroundColor>111111</backgroundColor>
+         <backgroundCornerSize>0 0</backgroundCornerSize>
+         <selectionMode>full</selectionMode>
+      </gridtile>
+      <gridtile name="selected">
+         <backgroundColor>141414</backgroundColor>
+      </gridtile>
+      <text name="gridtile">
+         <alignment>center</alignment>
+         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontSize>0.04</fontSize>
+         <backgroundColor>111111</backgroundColor>
+         <color>FFFFFF</color>
+         <glowColor>111111</glowColor>
+         <lineSpacing>1.1</lineSpacing>
+      </text>
+      <text name="gridtile:selected">
+         <backgroundColor>333333</backgroundColor>
+         <color>FFFFFF</color>
+      </text>
    </view>
 
    <view name="menu">
