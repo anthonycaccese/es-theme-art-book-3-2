@@ -164,15 +164,17 @@ license:        creative commons CC-BY-NC-SA
          <centerSelection>false</centerSelection>
          <animateSelection>false</animateSelection>
          <scrollSound>./_inc/sounds/select.wav</scrollSound>
+         <scrollDirection>horizontal</scrollDirection>
+         <scrollLoop>true</scrollLoop>
       </imagegrid>
       <gridtile name="default">
-         <padding>2 2</padding>
+         <padding>10 10</padding>
          <backgroundColor>111111</backgroundColor>
          <backgroundCornerSize>0 0</backgroundCornerSize>
          <selectionMode>full</selectionMode>
       </gridtile>
       <gridtile name="selected">
-         <backgroundColor>141414</backgroundColor>
+         <backgroundColor>1a1a1a</backgroundColor>
       </gridtile>
       <text name="gridtile">
          <alignment>center</alignment>
