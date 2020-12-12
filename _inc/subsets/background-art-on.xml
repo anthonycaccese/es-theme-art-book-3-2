@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <view name="system">
+      <image name="background-art" extra="true">
+         <origin>.5 0</origin>
+         <pos>0.5 0</pos>
+         <size>0.279166666666667 1</size>
+         <path>./_inc/systems/${system.theme}-art.png</path>
+         <tile>false</tile>
+         <color>FFFFFFCC</color>
+         <zIndex>2</zIndex>
+      </image>
+      <text name="systemInfo">
+         <origin>1 1</origin>
+         <pos>0.979166666666667 0.96875</pos>
+         <size>0.9 0.03125</size>
+         <fontSize>0.03125</fontSize>
+         <alignment>right</alignment>
+      </text>
+      <text name="logoText">
+         <fontSize>0.08</fontSize>
+      </text>
+   </view>
+
+</theme>

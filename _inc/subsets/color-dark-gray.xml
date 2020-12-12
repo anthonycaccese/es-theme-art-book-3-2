@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <view name="system,basic,detailed,video,grid">
+      <image name="background" extra="true">
+         <color>111111</color>
+         <path>./_inc/images/space.png</path>
+         <tile>true</tile>
+      </image>
+      <text name="logoText">
+         <color>ffffff</color>
+      </text>
+   </view>
+
+   <view name="system">
+      <text name="systemInfo">
+         <color>444444</color>
+      </text>
+   </view>
+
+   <view name="basic,detailed,video,grid">
+      <textlist name="gamelist">
+         <selectorColor>333333</selectorColor>
+         <selectedColor>ffffff</selectedColor>
+         <primaryColor>999999</primaryColor>
+         <secondaryColor>999999</secondaryColor>
+      </textlist>
+   </view>
+
+   <view name="detailed,video">
+      <image name="md_media_bezel" extra="true">
+         <color>333333</color>
+      </image>
+      <image name="help-favorite" extra="true">
+         <color>cccccc</color>
+      </image>
+      <image name="help-launch" extra="true">
+         <color>cccccc</color>
+      </image>
+   </view>
+
+   <view name="grid">
+      <gridtile name="default">
+         <backgroundColor>111111</backgroundColor>
+      </gridtile>
+      <gridtile name="selected">
+         <backgroundColor>1a1a1a</backgroundColor>
+      </gridtile>
+      <text name="gridtile">
+         <backgroundColor>111111</backgroundColor>
+      </text>
+      <text name="gridtile:selected">
+         <backgroundColor>333333</backgroundColor>
+      </text>
+   </view>
+
+   <view name="menu">
+      <menuText name="menufooter">
+         <color>666666</color>
+      </menuText>
+      <menuText name="menutext">
+         <color>444444</color>
+         <separatorColor>222222</separatorColor>
+         <selectorColor>555555</selectorColor>
+         <selectedColor>ffffff</selectedColor>
+      </menuText>
+      <menuBackground name="menubg">
+         <color>111111</color>
+      </menuBackground>
+   </view>
+
+   <view name="screen">
+      <text name="clock">
+         <color>444444</color>
+      </text>
+      <batteryIndicator name="batteryIndicator">
+         <color>444444</color>
+      </batteryIndicator>
+   </view>
+
+</theme>

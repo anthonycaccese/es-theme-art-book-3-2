@@ -5,7 +5,7 @@ author:         Anthony
 license:        creative commons CC-BY-NC-SA
 -->
 <theme>
-   <formatVersion>7</formatVersion>
+   <formatVersion>4</formatVersion>
 
    <view name="system,basic,detailed,video,grid">
       <helpsystem name="help">
@@ -23,6 +23,9 @@ license:        creative commons CC-BY-NC-SA
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
+         <color>111111</color>
+         <path>./_inc/images/space.png</path>
+         <tile>true</tile>
          <zIndex>1</zIndex>
       </image>
       <text name="logoText">
@@ -35,17 +38,17 @@ license:        creative commons CC-BY-NC-SA
          <origin>0 0</origin>
          <pos>0 0</pos>
          <type>horizontal</type>
-         <color>FFFFFF00</color>
+         <color>111111</color>
          <size>1 1</size>
          <logoSize>0.55 0.425</logoSize>
-         <logoScale>1</logoScale>
          <maxLogoCount>1</maxLogoCount>
       </carousel>
       <text name="systemInfo">
          <origin>0 0</origin>
          <pos>0 0.8</pos>
+         <backgroundColor>111111</backgroundColor>
+         <color>666666</color>
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
-         <backgroundColor>FFFFFF00</backgroundColor>
          <fontSize>0.05</fontSize>
       </text>
       <text name="logoText">
@@ -56,7 +59,7 @@ license:        creative commons CC-BY-NC-SA
    <view name="basic,detailed,video,grid">
       <image name="logo">
          <origin>0.5 0.5</origin>
-         <pos>0.5 0.16</pos>
+         <pos>0.5 0.155</pos>
          <maxSize>0.4 0.15</maxSize>
       </image>
       <text name="logoText">
@@ -70,6 +73,10 @@ license:        creative commons CC-BY-NC-SA
          <size>0.9 0.64</size>
          <alignment>center</alignment>
          <lineSpacing>1.81</lineSpacing>
+         <selectorColor>333333ff</selectorColor>
+         <selectedColor>ffffff</selectedColor>
+         <primaryColor>999999</primaryColor>
+         <secondaryColor>999999</secondaryColor>
          <fontSize>0.04</fontSize>
          <scrollSound>./_inc/sounds/select.wav</scrollSound>
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
@@ -101,6 +108,7 @@ license:        creative commons CC-BY-NC-SA
          <origin>0 0</origin>
          <pos>0.525 0.325</pos>
          <size>0.425 0.4875</size>
+         <color>333333</color>
          <path>./_inc/images/space.png</path>
          <tile>true</tile>
       </image>
@@ -161,18 +169,24 @@ license:        creative commons CC-BY-NC-SA
       </imagegrid>
       <gridtile name="default">
          <padding>10 10</padding>
+         <backgroundColor>111111</backgroundColor>
          <backgroundCornerSize>0 0</backgroundCornerSize>
          <selectionMode>full</selectionMode>
+      </gridtile>
+      <gridtile name="selected">
+         <backgroundColor>1a1a1a</backgroundColor>
       </gridtile>
       <text name="gridtile">
          <alignment>center</alignment>
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.04</fontSize>
+         <backgroundColor>111111</backgroundColor>
          <color>FFFFFF</color>
          <glowColor>111111</glowColor>
          <lineSpacing>1.1</lineSpacing>
       </text>
       <text name="gridtile:selected">
+         <backgroundColor>333333</backgroundColor>
          <color>FFFFFF</color>
       </text>
    </view>
@@ -186,11 +200,19 @@ license:        creative commons CC-BY-NC-SA
       <menuText name="menufooter">
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.04</fontSize>
+         <color>666666</color>
       </menuText>
       <menuText name="menutext">
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.05</fontSize>
+         <color>444444</color>
+         <separatorColor>222222</separatorColor>
+         <selectorColor>555555</selectorColor>
+         <selectedColor>FFFFFF</selectedColor>
       </menuText>
+      <menuBackground name="menubg">
+         <color>111111</color>
+      </menuBackground>
    </view>
 
    <view name="screen">
@@ -201,20 +223,15 @@ license:        creative commons CC-BY-NC-SA
          <fontSize>0.03125</fontSize>
          <alignment>left</alignment>
          <verticalAlignment>center</verticalAlignment>
+         <color>444444</color>
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
       </text>
+      <batteryIndicator name="batteryIndicator">
+         <color>444444</color>
+      </batteryIndicator>
       <controllerActivity name="controllerActivity">
          <pos>1 1</pos>
       </controllerActivity>
    </view>
-   
-   <subset name="color" displayName="Color">
-      <include name="dark-gray" displayName="Dark Gray">./_inc/subsets/color-dark-gray.xml</include>
-   </subset>
-   
-   <subset name="background-art" displayName="Background Art">
-      <include name="off" displayName="Off">./_inc/subsets/background-art-off.xml</include>
-      <include name="on" displayName="On">./_inc/subsets/background-art-on.xml</include>
-   </subset>
 
 </theme>
