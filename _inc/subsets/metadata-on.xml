@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <view name="basic,detailed,video,grid">
+      <image name="logo">
+         <origin>0 0</origin>
+         <pos>1 1</pos>
+      </image>
+      <text name="logoText">
+         <origin>0 0</origin>
+         <pos>1 1</pos>
+      </text>
+      <text name="system-name" extra="true">
+         <pos>0.15 0.065</pos>
+         <size>0.7 0.03125</size>
+         <text>${system.fullName}</text>
+         <alignment>center</alignment>
+         <fontSize>0.03125</fontSize>
+         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <forceUppercase>true</forceUppercase>
+      </text>
+   </view>
+
+   <view name="basic,detailed,video">
+      <textlist name="gamelist">
+         <pos>0.05 0.15</pos>
+         <size>0.9 0.825</size>
+      </textlist>
+   </view>
+
+   <view name="detailed,video,grid">
+      <textlist name="gamelist">
+         <pos>0.05 0.18</pos>
+         <size>0.425 0.825</size>
+         <alignment>left</alignment>
+      </textlist>
+      <rating name="md_rating">
+         <visible>true</visible>
+         <pos>0.5375 .698</pos>
+         <size>0.1666666666666667 0.05</size>
+      </rating>
+      <datetime name="md_releasedate">
+         <visible>true</visible>
+         <pos>0.77 .698</pos>
+         <size>0.1666666666666667 0.05</size>
+         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontSize>0.03</fontSize>
+         <alignment>right</alignment>
+      </datetime>
+      <text name="md_description">
+         <visible>true</visible>
+         <pos>0.5375 .78</pos>
+         <size>0.4 0.15</size>
+         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontSize>0.03</fontSize>
+      </text>
+      <image name="md_media_bezel" extra="true">
+         <pos>0.525 0.18</pos>
+      </image>
+      <image name="md_media_screen" extra="true">
+         <pos>0.5375 0.19875</pos>
+      </image>
+      <image name="md_image">
+         <pos>0.7375 0.423</pos>
+      </image>
+      <image name="help-favorite" extra="true">
+         <visible>false</visible>
+      </image>
+      <image name="help-launch" extra="true">
+         <visible>false</visible>
+      </image>
+   </view>
+
+   <view name="video,grid">
+      <video name="md_video">
+         <pos>0.7375 0.423</pos>
+      </video>
+   </view>
+
+   <view name="grid">
+      <image name="md_media_bezel,md_media_screen">
+         <visible>true</visible>
+      </image>
+      <video name="md_video">
+         <visible>true</visible>
+      </video>
+      <text name="md_name">
+         <pos>0.5375 .698</pos>
+         <size>0.4 0.05</size>
+         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontSize>0.04</fontSize>
+         <alignment>left</alignment>
+      </text>
+      <rating name="md_rating">
+         <visible>false</visible>
+      </rating>
+      <datetime name="md_releasedate">
+         <visible>false</visible>
+      </datetime>
+      <imagegrid name="gamegrid">
+         <pos>0.05 0.18</pos>
+         <size>0.425 0.75</size>
+         <autoLayout>2 2</autoLayout>
+         <centerSelection>false</centerSelection>
+         <scrollDirection>vertical</scrollDirection>
+      </imagegrid>
+      <gridtile name="default">
+         <padding>4 4</padding>
+         <backgroundCornerSize>0 0</backgroundCornerSize>
+         <selectionMode>image</selectionMode>
+      </gridtile>
+      <text name="gridtile">
+         <visible>false</visible>
+      </text>
+   </view>
+
+</theme>

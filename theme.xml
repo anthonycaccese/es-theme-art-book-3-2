@@ -18,6 +18,7 @@ license:        creative commons CC-BY-NC-SA
          <fontPath>./_inc/fonts/ChangaOne-Italic.ttf</fontPath>
          <forceUppercase>true</forceUppercase>
          <lineSpacing>1</lineSpacing>
+         <color>ffffff</color>
       </text>
       <image name="background" extra="true">
          <origin>0 0</origin>
@@ -25,9 +26,6 @@ license:        creative commons CC-BY-NC-SA
          <size>1 1</size>
          <zIndex>1</zIndex>
       </image>
-      <text name="logoText">
-         <color>ffffff</color>
-      </text>
    </view>
 
    <view name="system">
@@ -49,7 +47,7 @@ license:        creative commons CC-BY-NC-SA
          <fontSize>0.05</fontSize>
       </text>
       <text name="logoText">
-         <fontSize>0.15</fontSize>
+         <fontSize>0.1</fontSize>
       </text>
    </view>
 
@@ -65,6 +63,9 @@ license:        creative commons CC-BY-NC-SA
          <alignment>center</alignment>
          <fontSize>0.06</fontSize>
       </text>
+   </view>
+
+   <view name="basic,detailed,video">
       <textlist name="gamelist">
          <pos>0.05 0.335</pos>
          <size>0.9 0.64</size>
@@ -77,26 +78,21 @@ license:        creative commons CC-BY-NC-SA
       </textlist>
    </view>
 
-   <view name="detailed,video">
+   <view name="detailed,video,grid">
       <text name="md_lbl_rating,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_playcount,md_playcount,md_lbl_lastplayed,md_lbl_players,md_players,md_lbl_releasedate,md_lbl_genre,md_genre,md_description">
-         <pos>1 1</pos>
+         <visible>false</visible>
       </text>
       <datetime name="md_lastplayed,md_releasedate">
-         <pos>1 1</pos>
+         <visible>false</visible>
       </datetime>
       <rating name="md_rating">
-         <pos>1 1</pos>
+         <visible>false</visible>
       </rating>
       <textlist name="gamelist">
          <pos>0.05 0.335</pos>
          <size>0.425 0.64</size>
          <alignment>left</alignment>
       </textlist>
-      <image name="md_image">
-         <origin>0.5 0.5</origin>
-         <pos>0.7375 0.578</pos>
-         <maxSize>0.4 0.45</maxSize>
-      </image>
       <image name="md_media_bezel" extra="true">
          <origin>0 0</origin>
          <pos>0.525 0.335</pos>
@@ -112,6 +108,11 @@ license:        creative commons CC-BY-NC-SA
          <path>./_inc/images/space.png</path>
          <tile>true</tile>
       </image>
+      <image name="md_image">
+         <origin>0.5 0.5</origin>
+         <pos>0.7375 0.578</pos>
+         <maxSize>0.4 0.45</maxSize>
+      </image>
       <image name="help-favorite" extra="true">
          <origin>0 0</origin>
          <pos>0.5416666666666667 0.86</pos>
@@ -126,14 +127,12 @@ license:        creative commons CC-BY-NC-SA
       </image>
    </view>
 
-   <view name="video">
+   <view name="video,grid">
       <image name="md_marquee">
-         <origin>0 0</origin>
-         <pos>1 1</pos>
+         <visible>false</visible>
       </image>
       <image name="md_image">
-         <origin>0 0</origin>
-         <pos>1 1</pos>
+         <visible>false</visible>
       </image>
       <video name="md_video">
          <origin>0.5 0.5</origin>
@@ -150,6 +149,13 @@ license:        creative commons CC-BY-NC-SA
    </view>
 
    <view name="grid">
+      <image name="md_image,md_media_bezel,md_media_screen,help-favorite,help-launch">
+         <visible>false</visible>
+      </image>
+      <video name="md_video">
+         <visible>false</visible>
+         <showSnapshotDelay>false</showSnapshotDelay>
+      </video>
       <imagegrid name="gamegrid">
          <pos>0.05 0.325</pos>
          <size>0.9 0.60</size>
@@ -202,17 +208,20 @@ license:        creative commons CC-BY-NC-SA
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
       </text>
       <controllerActivity name="controllerActivity">
-         <pos>1 1</pos>
+         <visible>false</visible>
       </controllerActivity>
    </view>
    
    <subset name="color" displayName="Color">
       <include name="dark-gray" displayName="Dark Gray">./_inc/subsets/color-dark-gray.xml</include>
    </subset>
-   
    <subset name="background-art" displayName="Background Art">
       <include name="off" displayName="Off">./_inc/subsets/background-art-off.xml</include>
       <include name="on" displayName="On">./_inc/subsets/background-art-on.xml</include>
+   </subset>
+   <subset name="metadata" displayName="Metadata">
+      <include name="off" displayName="Off">./_inc/subsets/metadata-off.xml</include>
+      <include name="on" displayName="On">./_inc/subsets/metadata-on.xml</include>
    </subset>
 
 </theme>

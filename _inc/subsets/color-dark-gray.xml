@@ -20,15 +20,30 @@
    </view>
 
    <view name="basic,detailed,video,grid">
+      <text name="system-name" extra="true">
+         <color>777777</color>
+      </text>
+   </view>
+
+   <view name="basic,detailed,video,grid">
       <textlist name="gamelist">
          <selectorColor>333333</selectorColor>
          <selectedColor>ffffff</selectedColor>
-         <primaryColor>999999</primaryColor>
-         <secondaryColor>999999</secondaryColor>
+         <primaryColor>444444</primaryColor>
+         <secondaryColor>4444444</secondaryColor>
       </textlist>
    </view>
 
-   <view name="detailed,video">
+   <view name="detailed,video,grid">
+      <text name="md_description">
+         <color>999999</color>
+      </text>
+      <rating name="md_rating">
+         <color>444444</color>
+      </rating>
+      <datetime name="md_releasedate">
+         <color>444444</color>
+      </datetime>
       <image name="md_media_bezel" extra="true">
          <color>333333</color>
       </image>
@@ -41,6 +56,9 @@
    </view>
 
    <view name="grid">
+      <text name="md_name">
+         <color>ffffff</color>
+      </text>
       <gridtile name="default">
          <backgroundColor>111111</backgroundColor>
       </gridtile>
