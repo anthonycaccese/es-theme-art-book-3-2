@@ -33,10 +33,10 @@
          <color>333333</color>
       </image>
       <image name="help-favorite" extra="true">
-         <color>cccccc</color>
+         <color>666666</color>
       </image>
       <image name="help-launch" extra="true">
-         <color>cccccc</color>
+         <color>666666</color>
       </image>
    </view>
 

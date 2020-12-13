@@ -9,8 +9,17 @@
          <size>0.279166666666667 1</size>
          <path>./_inc/systems/${system.theme}-art.png</path>
          <tile>false</tile>
-         <color>FFFFFFCC</color>
+         <color>ffffff77</color>
          <zIndex>2</zIndex>
+      </image>
+      <!--<image name="logo-background" extra="true">
+         <origin>.5 .5</origin>
+         <pos>0.5 .5</pos>
+         <size>0.55 0.425</size>
+         <path>./_inc/images/space.png</path>
+         <tile>true</tile>
+         <color>11111100</color>
+         <zIndex>3</zIndex>
       </image>
       <text name="systemInfo">
          <origin>1 1</origin>
@@ -18,6 +27,9 @@
          <size>0.9 0.03125</size>
          <fontSize>0.03125</fontSize>
          <alignment>right</alignment>
+      </text>-->
+      <text name="systemInfo">
+         <pos>1 1</pos>
       </text>
       <text name="logoText">
          <fontSize>0.08</fontSize>
