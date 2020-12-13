@@ -31,38 +31,53 @@
 
    <view name="detailed,video,grid">
       <textlist name="gamelist">
-         <pos>0.05 0.18</pos>
-         <size>0.425 0.825</size>
+         <pos>0.05 0.17</pos>
+         <size>0.42 0.825</size>
          <alignment>left</alignment>
+         <lineSpacing>1.84</lineSpacing>
       </textlist>
+      <text name="md_name">
+         <pos>0.5375 .685</pos>
+         <size>0.4 0.05</size>
+         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontSize>0.036</fontSize>
+         <alignment>left</alignment>
+      </text>
       <rating name="md_rating">
          <visible>true</visible>
-         <pos>0.5375 .698</pos>
-         <size>0.1666666666666667 0.05</size>
+         <pos>0.5375 .762</pos>
+         <size>0.1666666666666667 0.045</size>
       </rating>
-      <datetime name="md_releasedate">
-         <visible>true</visible>
-         <pos>0.77 .698</pos>
+      <text name="md_spacer" extra="true">
+         <pos>0.705 .762</pos>
+         <text>|</text>
          <size>0.1666666666666667 0.05</size>
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.03</fontSize>
-         <alignment>right</alignment>
+      </text>
+      <datetime name="md_releasedate">
+         <visible>true</visible>
+         <pos>0.73 .762</pos>
+         <size>0.1666666666666667 0.05</size>
+         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontSize>0.03</fontSize>
+         <alignment>left</alignment>
       </datetime>
       <text name="md_description">
          <visible>true</visible>
-         <pos>0.5375 .78</pos>
-         <size>0.4 0.15</size>
+         <pos>0.5375 .83</pos>
+         <size>0.4 0.1</size>
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.03</fontSize>
       </text>
       <image name="md_media_bezel" extra="true">
-         <pos>0.525 0.18</pos>
+         <pos>0.525 0.17</pos>
       </image>
       <image name="md_media_screen" extra="true">
-         <pos>0.5375 0.19875</pos>
+         <pos>0.5375 0.18875</pos>
       </image>
       <image name="md_image">
-         <pos>0.7375 0.423</pos>
+         <pos>0.7375 0.414</pos>
       </image>
       <image name="help-favorite" extra="true">
          <visible>false</visible>
@@ -74,7 +89,7 @@
 
    <view name="video,grid">
       <video name="md_video">
-         <pos>0.7375 0.423</pos>
+         <pos>0.7375 0.414</pos>
       </video>
    </view>
 
@@ -85,31 +100,13 @@
       <video name="md_video">
          <visible>true</visible>
       </video>
-      <text name="md_name">
-         <pos>0.5375 .698</pos>
-         <size>0.4 0.05</size>
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
-         <fontSize>0.04</fontSize>
-         <alignment>left</alignment>
-      </text>
-      <rating name="md_rating">
-         <visible>false</visible>
-      </rating>
-      <datetime name="md_releasedate">
-         <visible>false</visible>
-      </datetime>
       <imagegrid name="gamegrid">
-         <pos>0.05 0.18</pos>
-         <size>0.425 0.75</size>
+         <pos>0.05 0.17</pos>
+         <size>0.425 0.764</size>
          <autoLayout>2 2</autoLayout>
          <centerSelection>false</centerSelection>
          <scrollDirection>vertical</scrollDirection>
       </imagegrid>
-      <gridtile name="default">
-         <padding>4 4</padding>
-         <backgroundCornerSize>0 0</backgroundCornerSize>
-         <selectionMode>image</selectionMode>
-      </gridtile>
       <text name="gridtile">
          <visible>false</visible>
       </text>

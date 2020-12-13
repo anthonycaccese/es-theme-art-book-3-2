@@ -5,8 +5,6 @@
    <view name="system,basic,detailed,video,grid">
       <image name="background" extra="true">
          <color>111111</color>
-         <path>./_inc/images/space.png</path>
-         <tile>true</tile>
       </image>
       <text name="logoText">
          <color>ffffff</color>
@@ -20,12 +18,15 @@
    </view>
 
    <view name="basic,detailed,video,grid">
+      <image name="logo">
+         <color>cccccc</color>
+      </image>
+      <text name="logoText">
+         <color>cccccc</color>
+      </text>
       <text name="system-name" extra="true">
          <color>777777</color>
       </text>
-   </view>
-
-   <view name="basic,detailed,video,grid">
       <textlist name="gamelist">
          <selectorColor>333333</selectorColor>
          <selectedColor>ffffff</selectedColor>
@@ -35,8 +36,11 @@
    </view>
 
    <view name="detailed,video,grid">
+      <text name="md_name">
+         <color>ffffff</color>
+      </text>
       <text name="md_description">
-         <color>999999</color>
+         <color>777777</color>
       </text>
       <rating name="md_rating">
          <color>444444</color>
@@ -44,8 +48,14 @@
       <datetime name="md_releasedate">
          <color>444444</color>
       </datetime>
+      <text name="md_genre">
+         <color>444444</color>
+      </text>
+      <text name="md_spacer" extra="true">
+         <color>222222</color>
+      </text>
       <image name="md_media_bezel" extra="true">
-         <color>333333</color>
+         <color>222222</color>
       </image>
       <image name="help-favorite" extra="true">
          <color>666666</color>
@@ -56,14 +66,13 @@
    </view>
 
    <view name="grid">
-      <text name="md_name">
-         <color>ffffff</color>
-      </text>
       <gridtile name="default">
          <backgroundColor>111111</backgroundColor>
+         <imageColor>ffffff44</imageColor>
       </gridtile>
       <gridtile name="selected">
          <backgroundColor>333333</backgroundColor>
+         <imageColor>ffffffff</imageColor>
       </gridtile>
       <text name="gridtile">
          <color>111111</color>
