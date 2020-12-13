@@ -150,34 +150,28 @@ license:        creative commons CC-BY-NC-SA
    </view>
 
    <view name="grid">
-      <imagegrid name="gamegrid" ifHelpPrompts="false">
+      <imagegrid name="gamegrid">
          <pos>0.05 0.325</pos>
          <size>0.9 0.60</size>
          <margin>0 0</margin>
          <padding>0 0 0 0</padding>
          <autoLayout>3 1</autoLayout>
          <autoLayoutSelectedZoom>1.0</autoLayoutSelectedZoom>
-         <centerSelection>false</centerSelection>
+         <centerSelection>true</centerSelection>
          <animateSelection>false</animateSelection>
          <scrollSound>./_inc/sounds/select.wav</scrollSound>
          <scrollDirection>horizontal</scrollDirection>
          <scrollLoop>true</scrollLoop>
       </imagegrid>
       <gridtile name="default">
-         <padding>10 10</padding>
+         <padding>4 4</padding>
          <backgroundCornerSize>0 0</backgroundCornerSize>
-         <selectionMode>full</selectionMode>
+         <selectionMode>image</selectionMode>
       </gridtile>
       <text name="gridtile">
          <alignment>center</alignment>
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.04</fontSize>
-         <color>FFFFFF</color>
-         <glowColor>111111</glowColor>
-         <lineSpacing>1.1</lineSpacing>
-      </text>
-      <text name="gridtile:selected">
-         <color>FFFFFF</color>
       </text>
    </view>
 

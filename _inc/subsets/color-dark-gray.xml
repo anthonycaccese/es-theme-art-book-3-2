@@ -45,13 +45,16 @@
          <backgroundColor>111111</backgroundColor>
       </gridtile>
       <gridtile name="selected">
-         <backgroundColor>1a1a1a</backgroundColor>
+         <backgroundColor>333333</backgroundColor>
       </gridtile>
       <text name="gridtile">
+         <color>111111</color>
+         <glowColor>111111</glowColor>
          <backgroundColor>111111</backgroundColor>
       </text>
-      <text name="gridtile:selected">
-         <backgroundColor>333333</backgroundColor>
+      <text name="gridtile_selected">
+         <backgroundColor>1a1a1a00</backgroundColor>
+         <color>cccccc</color>
       </text>
    </view>
 
