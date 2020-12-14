@@ -7,19 +7,19 @@ Discussion for Art book theme is ongoing in this thread: https://retropie.org.uk
 
 *System View*
 
-![System View](https://i.imgur.com/xjXHBEK.png)
+![System View](https://i.imgur.com/1RGfbBP.png)
 
 *Video View*
 
-![Video View](https://i.imgur.com/69adApT.png)
+![Video View](https://i.imgur.com/21yeUMy.png)
 
 *Detailed View*
 
-![Detailed View](https://i.imgur.com/HTyfc3a.png)
+![Detailed View](https://i.imgur.com/QauSTJf.png)
 
 *Grid View*
 
-![Basic View](https://i.imgur.com/sH6OZM7.png)
+![Basic View](https://i.imgur.com/FbU32kX.png)
 
 
 ## Details
