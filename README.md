@@ -11,7 +11,7 @@ Discussion for Art book theme is ongoing in this thread: https://retropie.org.uk
 
 *Video View*
 
-![Video View](https://i.imgur.com/xjXHBEK.png)
+![Video View](https://i.imgur.com/69adApT.png)
 
 *Detailed View*
 
