@@ -95,8 +95,12 @@
          <selectorColor>555555</selectorColor>
          <selectedColor>ffffff</selectedColor>
       </menuText>
+      <menuTextSmall name="menutextsmall">
+         <color>777777</color>
+      </menuTextSmall>
       <menuBackground name="menubg">
          <color>111111</color>
+         <centerColor>111111</centerColor>
       </menuBackground>
    </view>
 
