@@ -31,7 +31,7 @@
          <selectorColor>333333</selectorColor>
          <selectedColor>ffffff</selectedColor>
          <primaryColor>444444</primaryColor>
-         <secondaryColor>4444444</secondaryColor>
+         <secondaryColor>444444</secondaryColor>
       </textlist>
    </view>
 
@@ -76,11 +76,8 @@
       </gridtile>
       <text name="gridtile">
          <color>111111</color>
-         <glowColor>111111</glowColor>
-         <backgroundColor>111111</backgroundColor>
       </text>
       <text name="gridtile_selected">
-         <backgroundColor>1a1a1a00</backgroundColor>
          <color>cccccc</color>
       </text>
    </view>
