@@ -219,9 +219,7 @@ license:        creative commons CC-BY-NC-SA
       </controllerActivity>
    </view>
    
-   <subset name="color" displayName="Color">
-      <include name="dark-gray" displayName="Dark Gray">./_inc/subsets/color-dark-gray.xml</include>
-   </subset>
+   <include name="dark-gray" displayName="Dark Gray">./_inc/subsets/color-dark-gray.xml</include>
    <subset name="background-art" displayName="Background Art">
       <include name="on" displayName="On">./_inc/subsets/background-art-on.xml</include>
       <include name="off" displayName="Off">./_inc/subsets/background-art-off.xml</include>
