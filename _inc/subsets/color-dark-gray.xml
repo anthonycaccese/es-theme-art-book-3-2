@@ -40,7 +40,7 @@
          <color>777777</color>
       </text>
       <rating name="md_rating">
-         <color>444444</color>
+         <color>bba358</color>
       </rating>
       <datetime name="md_releasedate">
          <color>444444</color>
@@ -100,10 +100,10 @@
 
    <view name="screen">
       <text name="clock">
-         <color>FFFFFF55</color>
+         <color>FFFFFF22</color>
       </text>
       <batteryIndicator name="batteryIndicator">
-         <color>FFFFFF55</color>
+         <color>FFFFFF22</color>
       </batteryIndicator>
    </view>
 

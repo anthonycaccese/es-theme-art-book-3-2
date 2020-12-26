@@ -214,6 +214,17 @@ license:        creative commons CC-BY-NC-SA
          <verticalAlignment>center</verticalAlignment>
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
       </text>
+      <batteryIndicator name="batteryIndicator">
+         <!-- x=439.2 y=4.16 --><pos>0.915 0.013</pos>
+         <!-- 33.6 x 22.4 --><size>0.07 0.07</size>
+         <full>./_inc/images/battery-100.svg</full>
+         <at75>./_inc/images/battery-75.svg</at75>
+         <at50>./_inc/images/battery-50.svg</at50>
+         <at25>./_inc/images/battery-25.svg</at25>
+         <empty>./_inc/images/battery-0.svg</empty>
+         <incharge>./_inc/images/battery-charging.svg</incharge>
+         <networkIcon>./_inc/images/wifi.svg</networkIcon>
+      </batteryIndicator>
       <controllerActivity name="controllerActivity">
          <visible>false</visible>
       </controllerActivity>

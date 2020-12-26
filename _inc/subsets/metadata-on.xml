@@ -45,7 +45,9 @@
       <rating name="md_rating">
          <visible>true</visible>
          <pos>0.5375 .762</pos>
-         <size>0.1666666666666667 0.045</size>
+         <size>0 0.04375</size>
+         <filledPath>./_inc/images/star-filled.svg</filledPath>
+         <unfilledPath>./_inc/images/star-empty.svg</unfilledPath>
       </rating>
       <text name="md_spacer" extra="true">
          <pos>0.705 .762</pos>
