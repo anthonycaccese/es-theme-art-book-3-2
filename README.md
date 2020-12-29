@@ -33,13 +33,20 @@ Discussion for the base Art book theme is ongoing in this thread: https://retrop
 
 ## Configuration Options
 
-- Background Art: Toggle background art Off/On/Full Screen under "UI Settings" > "Theme Configuration" > "Background Art" (video: https://youtu.be/YgpRxBTLgCU)
-- Metadata: Toggle metadata display Off/On under "UI Settings" > "Theme Configuration" > "Metadata" (video: https://youtu.be/tCDM-nLCjQI)
+- Background Art: Toggle background art for system view under "UI Settings" > "Theme Configuration" > "Background Art" (video: https://youtu.be/YgpRxBTLgCU)
+  - Options:
+  - [Off] Don't Display Background Art
+  - [On] Display centered Background Art
+  - [Full Screen] Display full screen Background Art
+- Metadata: Toggle metadata display for games view under "UI Settings" > "Theme Configuration" > "Metadata" (video: https://youtu.be/tCDM-nLCjQI)
+  - Options:
+  - [Off] Don't display game metadata
+  - [On] Display the following game metadata - Title, Description, Rating, Release Date, Description
 
 
 ## Acknowledgments
 
-- Full Screen Background Art created and provided by Szalik
 - 351ELEC by fewtarius - https://github.com/fewtarius/351ELEC
+- Full Screen Background Art created and provided by Szalik
 - Some logo graphics are modified from the Carbom theme by Eric Hettervik
 - ChangaOne font by Eduardo Tunni
