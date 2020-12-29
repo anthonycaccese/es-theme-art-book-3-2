@@ -1,6 +1,6 @@
 # Art Book 3:2, an EmulationStation theme for 3:2 resolutions
 A simple theme for Emulation Station based on the look of a coffee table book.  Built and tested on 351Elec for the RG351P handheld
-Discussion for Art book theme is ongoing in this thread: https://retropie.org.uk/forum/topic/11728/new-theme-art-book
+Discussion for the base Art book theme is ongoing in this thread: https://retropie.org.uk/forum/topic/11728/new-theme-art-book
 
 
 ## Preview
@@ -33,13 +33,13 @@ Discussion for Art book theme is ongoing in this thread: https://retropie.org.uk
 
 ## Configuration Options
 
-- Background Art: Toggle background art On/Off under "UI Settings" > "Theme Configuration" > "Background Art" (video: https://youtu.be/YgpRxBTLgCU)
-- Metadata: Toggle metadata display On/Off under "UI Settings" > "Theme Configuration" > "Metadata" (video: https://youtu.be/tCDM-nLCjQI)
-- Color: Change the colorset under "UI Settings" > "Theme Configuration" > "Color".  If you are interested in contributing additional colorsets please use [color-dark-gray.xml](https://github.com/anthonycaccese/es-theme-art-book-3-2/blob/main/_inc/subsets/color-dark-gray.xml) as an example. Please duplicate that file, make color changes, rename and submit a pull request.
+- Background Art: Toggle background art Off/On/Full Screen under "UI Settings" > "Theme Configuration" > "Background Art" (video: https://youtu.be/YgpRxBTLgCU)
+- Metadata: Toggle metadata display Off/On under "UI Settings" > "Theme Configuration" > "Metadata" (video: https://youtu.be/tCDM-nLCjQI)
 
 
 ## Acknowledgments
 
+- Full Screen Background Art created and provided by Szalik
+- 351ELEC by fewtarius - https://github.com/fewtarius/351ELEC
 - Some logo graphics are modified from the Carbom theme by Eric Hettervik
 - ChangaOne font by Eduardo Tunni
-- 351ELEC by fewtarius - https://github.com/fewtarius/351ELEC

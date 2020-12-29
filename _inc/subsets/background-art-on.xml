@@ -12,9 +12,9 @@
          <color>ffffff99</color>
          <zIndex>2</zIndex>
       </image>
-      <carousel name="systemcarousel">
+      <!--<carousel name="systemcarousel">
          <logoSize>0.4375 0.30625</logoSize>
-      </carousel>
+      </carousel>-->
       <text name="systemInfo">
          <pos>1 1</pos>
       </text>

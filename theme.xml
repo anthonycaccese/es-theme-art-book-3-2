@@ -232,8 +232,9 @@ license:        creative commons CC-BY-NC-SA
    
    <include name="dark-gray" displayName="Dark Gray">./_inc/subsets/color-dark-gray.xml</include>
    <subset name="background-art" displayName="Background Art">
-      <include name="on" displayName="On">./_inc/subsets/background-art-on.xml</include>
       <include name="off" displayName="Off">./_inc/subsets/background-art-off.xml</include>
+      <include name="on" displayName="On">./_inc/subsets/background-art-on.xml</include>
+      <include name="full-screen" displayName="Full Screen">./_inc/subsets/background-art-fullscreen.xml</include>
    </subset>
    <subset name="metadata" displayName="Metadata">
       <include name="off" displayName="Off">./_inc/subsets/metadata-off.xml</include>
