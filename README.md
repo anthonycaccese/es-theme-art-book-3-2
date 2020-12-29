@@ -35,9 +35,9 @@ Discussion for the base Art book theme is ongoing in this thread: https://retrop
 
 - Background Art: Toggle background art for system view under "UI Settings" > "Theme Configuration" > "Background Art" (video: https://youtu.be/YgpRxBTLgCU)
   - Options:
-  - [Off] Don't Display Background Art
-  - [On] Display centered Background Art
-  - [Full Screen] Display full screen Background Art
+  - [Off] Don't display background art
+  - [On] Display centered background art
+  - [Full Screen] Display full screen background art (created by Szalik)
 - Metadata: Toggle metadata display for games view under "UI Settings" > "Theme Configuration" > "Metadata" (video: https://youtu.be/tCDM-nLCjQI)
   - Options:
   - [Off] Don't display game metadata
