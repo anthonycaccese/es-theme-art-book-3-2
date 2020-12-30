@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
    <formatVersion>7</formatVersion>
-
    <view name="system">
+      <image name="top-background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 0.09375</size>
+         <path>./_inc/images/space.png</path>
+         <tile>true</tile>
+         <color>11111144</color>
+         <zIndex>3</zIndex>
+      </image>
       <image name="background-art" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
@@ -19,7 +27,6 @@
          <fontSize>0.08</fontSize>
       </text>
    </view>
-
    <!--<view name="basic,detailed,video,grid">
       <image name="background-art" extra="true">
          <origin>0 0</origin>
@@ -31,5 +38,12 @@
          <zIndex>2</zIndex>
       </image>
    </view>-->
-
+   <view name="screen">
+      <text name="clock">
+         <color>FFFFFF55</color>
+      </text>
+      <batteryIndicator name="batteryIndicator">
+         <color>FFFFFF55</color>
+      </batteryIndicator>
+   </view>
 </theme>

@@ -100,10 +100,10 @@
 
    <view name="screen">
       <text name="clock">
-         <color>FFFFFF22</color>
+         <color>FFFFFF33</color>
       </text>
       <batteryIndicator name="batteryIndicator">
-         <color>FFFFFF22</color>
+         <color>FFFFFF33</color>
       </batteryIndicator>
    </view>
 
