@@ -98,14 +98,14 @@ license:        creative commons CC-BY-NC-SA
       <image name="md_media_bezel" extra="true">
          <origin>0 0</origin>
          <pos>0.525 0.335</pos>
-         <size>0.425 0.4875</size>
+         <size>0.425 0.4875</size><!-- 204 x 156 -->
          <path>./_inc/images/space.png</path>
          <tile>true</tile>
       </image>
       <image name="md_media_screen" extra="true">
          <origin>0 0</origin>
          <pos>0.5375 0.35375</pos>
-         <size>0.4 0.45</size>
+         <size>0.4 0.45</size><!-- 192 x 144 -->
          <color>000000</color>
          <path>./_inc/images/space.png</path>
          <tile>true</tile>
@@ -141,6 +141,7 @@ license:        creative commons CC-BY-NC-SA
          <pos>0.7375 0.578</pos>
          <maxSize>0.4 0.45</maxSize>
          <delay>0.5</delay>
+         <default>./_inc/videos/static_alt.mp4</default>
          <showSnapshotDelay>true</showSnapshotDelay>
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
          <storyboard>
@@ -233,7 +234,7 @@ license:        creative commons CC-BY-NC-SA
    <include name="dark-gray" displayName="Dark Gray">./_inc/subsets/color-dark-gray.xml</include>
    <subset name="background-art" displayName="Background Art">
       <include name="off" displayName="Off">./_inc/subsets/background-art-off.xml</include>
-      <include name="on" displayName="On">./_inc/subsets/background-art-on.xml</include>
+      <include name="on" displayName="Centered">./_inc/subsets/background-art-on.xml</include>
       <include name="full-screen" displayName="Full Screen">./_inc/subsets/background-art-fullscreen.xml</include>
    </subset>
    <subset name="metadata" displayName="Metadata">

@@ -16,7 +16,7 @@
          <size>0.7 0.03125</size>
          <text>${system.fullName}</text>
          <alignment>center</alignment>
-         <fontSize>0.03125</fontSize>
+         <fontSize>0.03125</fontSize><!-- 10 -->
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <forceUppercase>true</forceUppercase>
       </text>
