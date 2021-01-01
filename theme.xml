@@ -141,7 +141,6 @@ license:        creative commons CC-BY-NC-SA
          <pos>0.7375 0.578</pos>
          <maxSize>0.4 0.45</maxSize>
          <delay>0.5</delay>
-         <default>./_inc/videos/static_alt.mp4</default>
          <showSnapshotDelay>true</showSnapshotDelay>
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
          <storyboard>
