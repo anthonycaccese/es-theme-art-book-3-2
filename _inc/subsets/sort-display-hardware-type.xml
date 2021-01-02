@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <view name="system">
+      <text name="sorting-alphabetical" extra="true">
+         <pos>0.15 0.035</pos>
+         <color>ffffff</color>
+         <size>0.7 0.03125</size>
+         <text>Type: ${system.hardwareType}</text>
+         <alignment>center</alignment>
+         <fontSize>0.03125</fontSize><!-- 10 -->
+         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <forceUppercase>true</forceUppercase>
+      </text>
+      <image ifSubset="background-art:on" name="top-background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 0.1</size>
+         <path>./_inc/images/space.png</path>
+         <tile>true</tile>
+         <color>111111</color>
+         <zIndex>3</zIndex>
+      </image>
+   </view>
+
+</theme>

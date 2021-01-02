@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
    <formatVersion>7</formatVersion>
+
    <view name="system">
       <image name="top-background" extra="true">
          <origin>0 0</origin>
@@ -27,17 +28,6 @@
          <fontSize>0.08</fontSize>
       </text>
    </view>
-   <!--<view name="basic,detailed,video,grid">
-      <image name="background-art" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <path>./_inc/systems/${system.theme}-art-fs.jpg</path>
-         <tile>false</tile>
-         <color>ffffff22</color>
-         <zIndex>2</zIndex>
-      </image>
-   </view>-->
    <view name="screen">
       <text name="clock">
          <color>FFFFFF55</color>
@@ -46,4 +36,5 @@
          <color>FFFFFF55</color>
       </batteryIndicator>
    </view>
+   
 </theme>

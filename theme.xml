@@ -240,5 +240,12 @@ license:        creative commons CC-BY-NC-SA
       <include name="off" displayName="Off">./_inc/subsets/metadata-off.xml</include>
       <include name="on" displayName="On">./_inc/subsets/metadata-on.xml</include>
    </subset>
+   <subset name="sort-display" displayName="Display 'Sort Sytems' Value">
+      <include name="off" displayName="Off">./_inc/subsets/sort-display-off.xml</include>
+      <include name="alphabetical" displayName="Alphabetical">./_inc/subsets/sort-display-alphabetical.xml</include>
+      <include name="hardware-type" displayName="Hardware Type">./_inc/subsets/sort-display-hardware-type.xml</include>
+      <include name="manufacturer" displayName="Manufacturer">./_inc/subsets/sort-display-manufacturer.xml</include>
+      <include name="release-year" displayName="Release Year">./_inc/subsets/sort-display-release-year.xml</include>
+   </subset>
 
 </theme>
