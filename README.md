@@ -25,7 +25,7 @@ Discussion for the base Art book theme is ongoing in this thread: https://retrop
 ## Details
 
 - Built for 3:2 resolutions (specifically tested on the Anbernic RG351P running 351ELEC)
-- Full list of supported systems: https://docs.google.com/spreadsheets/d/1gzaP0klzaBaE5_oB1_hQwr46qOmQnacSvSU3o-p5Q7U/edit#gid=0
+- Full list of supported system themes: https://docs.google.com/spreadsheets/d/1gzaP0klzaBaE5_oB1_hQwr46qOmQnacSvSU3o-p5Q7U/edit#gid=0
 - Has many custom themes - mario (Super Mario Bros), zelda (Legend of Zelda), megaman, etc... (see "custom themes" tab in the google doc above for the full list) 
 - System, basic, detailed, video and grid views are supported
 - Support for "All Games", "Favorites", "Last Played" and "Custom Collections"
@@ -36,7 +36,7 @@ Discussion for the base Art book theme is ongoing in this thread: https://retrop
 - Background Art: Toggle background art for system view under "UI Settings" > "Theme Configuration" > "Background Art" (video: https://youtu.be/YgpRxBTLgCU)
   - Options:
   - [Off] Don't display background art
-  - [On] Display centered background art
+  - [Centered] Display centered background art
   - [Full Screen] Display full screen background art (created by Szalik)
 - Metadata: Toggle metadata display for games view under "UI Settings" > "Theme Configuration" > "Metadata" (video: https://youtu.be/tCDM-nLCjQI)
   - Options:
