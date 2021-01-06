@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-  <g>
+  <g transform="matrix(0.44, 0, 0, 0.441128, 0, 0)">
     <path id="path3904" d="M 55.377 59.865 L 43.719 81.609 L 0 0 L 23.316 0 Z" style="font-size: 40px; font-style: normal; font-weight: normal; line-height: 125%; letter-spacing: 0px; word-spacing: 0px; fill-opacity: 1; stroke-opacity: 1; font-family: Videopac; fill: rgb(255, 255, 255);"/>
     <path id="path2987" d="M 46.635 32.643 L 64.122 0 L 87.438 0 L 58.293 54.387 Z" style="font-size: 40px; font-style: normal; font-weight: normal; line-height: 125%; letter-spacing: 0px; word-spacing: 0px; fill-opacity: 1; stroke-opacity: 1; font-family: Videopac; fill: rgb(255, 255, 255);"/>
     <path d="M 93.384 0 L 113.844 0 L 113.787 81.609 L 93.384 81.609 Z" id="path2989" style="font-size: 40px; font-style: normal; font-weight: normal; line-height: 125%; letter-spacing: 0px; word-spacing: 0px; fill-opacity: 1; stroke-opacity: 1; font-family: Videopac; fill: rgb(255, 255, 255);"/>
