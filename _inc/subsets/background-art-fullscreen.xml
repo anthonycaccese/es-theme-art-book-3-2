@@ -17,6 +17,7 @@
          <pos>0 0</pos>
          <size>1 1</size>
          <path>./_inc/systems/${system.theme}-art-fs.jpg</path>
+         <path>./_inc/systems/${system.theme}-art-fs.png</path>
          <tile>false</tile>
          <color>ffffffcc</color>
          <zIndex>2</zIndex>
