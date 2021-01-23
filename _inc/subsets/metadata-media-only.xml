@@ -2,53 +2,15 @@
 <theme>
    <formatVersion>7</formatVersion>
 
-   <view name="basic,detailed,video,grid">
-      <image name="logo">
-         <origin>0 0</origin>
-         <pos>1 1</pos>
-      </image>
-      <text name="logoText">
-         <origin>0 0</origin>
-         <pos>1 1</pos>
-      </text>
-      <text name="system-name" extra="true">
-         <pos>0.15 0.065</pos>
-         <size>0.7 0.03125</size>
-         <text>${system.fullName}</text>
-         <alignment>center</alignment>
-         <fontSize>0.03125</fontSize><!-- 10 -->
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
-         <forceUppercase>true</forceUppercase>
-      </text>
-      <image name="background" extra="true">
-         <color>000000</color>
-      </image>
-   </view>
-
-   <view name="basic,detailed,video">
-      <textlist name="gamelist">
-         <pos>0.05 0.17</pos>
-         <size>0.9 0.8</size>
-         <lineSpacing>1.9</lineSpacing>
-         <fontSize>0.03125</fontSize>
-         <horizontalMargin>0</horizontalMargin>
-      </textlist>
-   </view>
+   <include>./metadata-on.xml</include>
 
    <view name="detailed,video,grid">
       <textlist name="gamelist">
-         <size>0.34 0.8</size>
+         <size>0.34 0.825</size>
          <alignment>left</alignment>
       </textlist>
       <image name="md-media-mask" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <path>./_inc/images/media-mask-simple.svg</path>
-         <zIndex>3</zIndex>
-      </image>
-      <image name="md_media_bezel,md_media_screen,help-launch,help-favorite" extra="true">
-         <visible>false</visible>
+         <path>./_inc/images/metadata-max.svg</path>
       </image>
    </view>
 
@@ -71,36 +33,19 @@
       <video name="md_video">
          <pos>0.6979166666666667 0.546875</pos><!-- x=335 y=175 -->
          <maxSize>0.7875 0.88125</maxSize><!-- 378 x 282 -->
-         <zIndex>2</zIndex>
          <delay>0.2</delay>
          <showSnapshotDelay>false</showSnapshotDelay>
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
       </video>
    </view>
 
-   <view name="basic">
-      <image name="background" extra="true">
-         <color>111111</color>
-      </image>
-   </view>
-
    <view name="grid">
-      <image name="md_media_bezel,md_media_screen,md_image">
+      <image name="md_image">
          <visible>false</visible>
       </image>
-      <video name="md_video">
-         <visible>true</visible>
-      </video>
       <imagegrid name="gamegrid">
-         <pos>0.05 0.17</pos>
          <size>0.34 0.764</size>
-         <autoLayout>2 2</autoLayout>
-         <centerSelection>false</centerSelection>
-         <scrollDirection>vertical</scrollDirection>
       </imagegrid>
-      <text name="gridtile">
-         <visible>false</visible>
-      </text>
    </view>
 
 </theme>

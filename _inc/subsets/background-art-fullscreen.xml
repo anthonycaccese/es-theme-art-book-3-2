@@ -3,39 +3,24 @@
    <formatVersion>7</formatVersion>
 
    <view name="system">
-      <image name="top-background" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 0.09375</size>
-         <path>./_inc/images/space.png</path>
-         <tile>true</tile>
-         <color>11111144</color>
-         <zIndex>3</zIndex>
-      </image>
       <image name="background-art" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
          <path>./_inc/systems/${system.theme}-art-fs.jpg</path>
-         <path>./_inc/systems/${system.theme}-art-fs.png</path>
          <tile>false</tile>
          <color>ffffffcc</color>
          <zIndex>2</zIndex>
       </image>
-      <text name="systemInfo">
-         <pos>1 1</pos>
-      </text>
-      <text name="logoText">
-         <fontSize>0.08</fontSize>
-      </text>
-   </view>
-   <view name="screen">
-      <text name="clock">
-         <color>FFFFFF55</color>
-      </text>
-      <batteryIndicator name="batteryIndicator">
-         <color>FFFFFF55</color>
-      </batteryIndicator>
+      <image name="top-background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 0.09375</size>
+         <path>${spacerImage}</path>
+         <tile>true</tile>
+         <color>11111144</color>
+         <zIndex>3</zIndex>
+      </image>
    </view>
    
 </theme>

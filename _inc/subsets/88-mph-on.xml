@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
    <formatVersion>7</formatVersion>
+
    <view name="system">
       <image ifSubset="background-art:on" name="background-art" extra="true">
          <path>./_inc/systems/${system.theme}-art.png</path>
@@ -11,4 +12,5 @@
          <path>./_inc/systems/${system.theme}-art-fs-fewt.jpg</path>
       </image>
    </view>
+   
 </theme>

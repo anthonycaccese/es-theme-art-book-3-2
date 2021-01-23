@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 theme name:     Art Book 3:2
-author:         Anthony
+author:         Anthony Caccese
 license:        creative commons CC-BY-NC-SA
 -->
 <theme>
    <formatVersion>7</formatVersion>
+
+   <variables>
+      <logoFont>./_inc/fonts/ChangaOne-Italic.ttf</logoFont>
+      <bodyFont>./_inc/fonts/Cabin-Bold.ttf</bodyFont>
+      <spacerImage>./_inc/images/space.png</spacerImage>
+   </variables>
 
    <view name="system,basic,detailed,video,grid">
       <helpsystem name="help">
@@ -15,18 +21,21 @@ license:        creative commons CC-BY-NC-SA
          <path>./_inc/systems/${system.theme}.svg</path>
       </image>
       <text name="logoText">
-         <fontPath>./_inc/fonts/ChangaOne-Italic.ttf</fontPath>
+         <fontPath>${logoFont}</fontPath>
          <forceUppercase>true</forceUppercase>
          <lineSpacing>1</lineSpacing>
+         <alignment>center</alignment>
+         <fontSize>0.1</fontSize>
          <color>ffffff</color>
       </text>
       <image name="background" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
-         <path>./_inc/images/space.png</path>
+         <path>${spacerImage}</path>
          <tile>true</tile>
          <zIndex>1</zIndex>
+         <color>111111</color>
       </image>
    </view>
 
@@ -42,18 +51,14 @@ license:        creative commons CC-BY-NC-SA
          <maxLogoCount>1</maxLogoCount>
       </carousel>
       <text name="systemInfo">
-         <origin>0 0</origin>
-         <pos>0 0.8</pos>
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
-         <backgroundColor>FFFFFF00</backgroundColor>
-         <fontSize>0.05</fontSize>
-      </text>
-      <text name="logoText">
-         <fontSize>0.1</fontSize>
+         <pos>1 1</pos>
       </text>
    </view>
 
    <view name="basic,detailed,video,grid">
+      <image name="background" extra="true">
+         <color>000000</color>
+      </image>
       <image name="logo">
          <origin>0.5 0.5</origin>
          <pos>0.5 0.18</pos>
@@ -62,9 +67,18 @@ license:        creative commons CC-BY-NC-SA
       <text name="logoText">
          <pos>0.05 0.14</pos>
          <size>0.9 0.075</size>
-         <alignment>center</alignment>
          <fontSize>0.06</fontSize>
+         <color>ffffffcc</color>
       </text>
+      <text name="system-name" extra="true">
+         <color>ffffffcc</color>
+      </text>
+   </view>
+
+   <view name="basic">
+      <image name="background" extra="true">
+         <color>111111</color>
+      </image>
    </view>
 
    <view name="basic,detailed,video">
@@ -75,57 +89,58 @@ license:        creative commons CC-BY-NC-SA
          <lineSpacing>1.81</lineSpacing>
          <fontSize>0.04</fontSize>
          <scrollSound>./_inc/sounds/select.wav</scrollSound>
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontPath>${bodyFont}</fontPath>
          <horizontalMargin>0.008</horizontalMargin>
+         <selectorColor>222222</selectorColor>
+         <selectedColor>ffffff</selectedColor>
+         <primaryColor>ffffff44</primaryColor>
+         <secondaryColor>ffffff44</secondaryColor>
       </textlist>
    </view>
 
    <view name="detailed,video,grid">
-      <text name="md_lbl_rating,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_playcount,md_playcount,md_lbl_lastplayed,md_lbl_players,md_players,md_lbl_releasedate,md_lbl_genre,md_genre,md_description">
+      <text name="md_lbl_rating,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_playcount,md_playcount,md_lbl_lastplayed,md_lbl_players,md_players,md_lbl_releasedate,md_lbl_genre,md_genre,md_description,md_name">
          <visible>false</visible>
+         <fontPath>${bodyFont}</fontPath>
+         <alignment>left</alignment>
+         <color>ffffff</color>
       </text>
-      <datetime name="md_lastplayed,md_releasedate">
+      <text name="md_genre,md_description,md_lbl_players,md_players">
+         <color>777777</color>
+      </text>
+      <text name="md_lbl_lastplayed,md_lbl_playcount,md_playcount">
+         <color>444444</color>
+      </text>
+      <datetime name="md_releasedate,md_lastplayed">
          <visible>false</visible>
+         <fontPath>${bodyFont}</fontPath>
+         <color>444444</color>
+         <alignment>left</alignment>
       </datetime>
       <rating name="md_rating">
          <visible>false</visible>
+         <fontPath>${bodyFont}</fontPath>
+         <color>444444</color>
+         <alignment>left</alignment>
       </rating>
+      <text name="md_spacer" extra="true">
+         <color>222222</color>
+      </text>
       <textlist name="gamelist">
          <pos>0.05 0.335</pos>
          <size>0.42 0.64</size>
          <alignment>left</alignment>
       </textlist>
-      <image name="md_media_bezel" extra="true">
-         <origin>0 0</origin>
-         <pos>0.525 0.335</pos>
-         <size>0.425 0.4875</size><!-- 204 x 156 -->
-         <path>./_inc/images/space.png</path>
-         <tile>true</tile>
-      </image>
-      <image name="md_media_screen" extra="true">
-         <origin>0 0</origin>
-         <pos>0.5375 0.35375</pos>
-         <size>0.4 0.45</size><!-- 192 x 144 -->
-         <color>000000</color>
-         <path>./_inc/images/space.png</path>
-         <tile>true</tile>
-      </image>
       <image name="md_image">
          <origin>0.5 0.5</origin>
          <pos>0.7375 0.578</pos>
          <maxSize>0.4 0.45</maxSize>
       </image>
-      <image name="help-favorite" extra="true">
+      <image name="md-media-mask" extra="true">
          <origin>0 0</origin>
-         <pos>0.5416666666666667 0.86</pos>
-         <size>0.1875 0.05</size>
-         <path>./_inc/images/help-favorite.svg</path>
-      </image>
-      <image name="help-launch" extra="true">
-         <origin>0 0</origin>
-         <pos>0.7666666666666667 0.86</pos>
-         <size>0.1666666666666667 0.05</size>
-         <path>./_inc/images/help-launch.svg</path>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>3</zIndex>
       </image>
    </view>
 
@@ -143,10 +158,7 @@ license:        creative commons CC-BY-NC-SA
          <delay>0.5</delay>
          <showSnapshotDelay>true</showSnapshotDelay>
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
-         <storyboard>
-            <animation property="opacity" from="0" to="1" duration="500" mode="Linear"/>
-            <animation property="scale" from="0" to="1" duration="500" mode="EaseOutCubic"/>
-         </storyboard>
+         <zIndex>2</zIndex>
       </video>
    </view>
 
@@ -175,33 +187,53 @@ license:        creative commons CC-BY-NC-SA
          <padding>5 5</padding>
          <backgroundCornerSize>0 0</backgroundCornerSize>
          <selectionMode>image</selectionMode>
+         <backgroundColor>11111100</backgroundColor>
+         <imageColor>ffffff44</imageColor>
+      </gridtile>
+      <gridtile name="selected">
+         <backgroundColor>ffffff11</backgroundColor>
+         <imageColor>ffffffff</imageColor>
       </gridtile>
       <text name="gridtile">
          <alignment>center</alignment>
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontPath>${bodyFont}</fontPath>
          <fontSize>0.036</fontSize>
          <lineSpacing>1.2</lineSpacing>
+         <color>111111</color>
+      </text>
+      <text name="gridtile_selected">
+         <color>cccccc</color>
       </text>
    </view>
 
    <view name="menu">
       <menuText name="menutitle">
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontPath>${bodyFont}</fontPath>
          <fontSize>0.04</fontSize>
          <color>ffffff</color>
       </menuText>
       <menuText name="menufooter">
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontPath>${bodyFont}</fontPath>
          <fontSize>0.0325</fontSize>
+         <color>666666</color>
       </menuText>
       <menuText name="menutext">
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontPath>${bodyFont}</fontPath>
          <fontSize>0.04</fontSize>
+         <color>444444</color>
+         <separatorColor>222222</separatorColor>
+         <selectorColor>555555</selectorColor>
+         <selectedColor>ffffff</selectedColor>
       </menuText>
       <menuTextSmall name="menutextsmall">
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontPath>${bodyFont}</fontPath>
          <fontSize>0.03</fontSize>
+         <color>777777</color>
       </menuTextSmall>
+      <menuBackground name="menubg">
+         <color>111111</color>
+         <centerColor>111111</centerColor>
+      </menuBackground>
    </view>
 
    <view name="screen">
@@ -212,11 +244,12 @@ license:        creative commons CC-BY-NC-SA
          <fontSize>0.03125</fontSize>
          <alignment>left</alignment>
          <verticalAlignment>center</verticalAlignment>
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <fontPath>${bodyFont}</fontPath>
+         <color>FFFFFF55</color>
       </text>
       <batteryIndicator name="batteryIndicator">
-         <!-- x=439.2 y=4.16 --><pos>0.915 0.013</pos>
-         <!-- 33.6 x 22.4 --><size>0.07 0.07</size>
+         <pos>0.915 0.013</pos><!-- x=439.2 y=4.16 -->
+         <size>0.07 0.07</size><!-- 33.6 x 22.4 -->
          <full>./_inc/images/battery-100.svg</full>
          <at75>./_inc/images/battery-75.svg</at75>
          <at50>./_inc/images/battery-50.svg</at50>
@@ -224,13 +257,13 @@ license:        creative commons CC-BY-NC-SA
          <empty>./_inc/images/battery-0.svg</empty>
          <incharge>./_inc/images/battery-charging.svg</incharge>
          <networkIcon>./_inc/images/wifi.svg</networkIcon>
+         <color>FFFFFF55</color>
       </batteryIndicator>
       <controllerActivity name="controllerActivity">
          <visible>false</visible>
       </controllerActivity>
    </view>
    
-   <include name="dark-gray" displayName="Dark Gray">./_inc/subsets/color-dark-gray.xml</include>
    <subset name="background-art" displayName="Background Art">
       <include name="off" displayName="Off">./_inc/subsets/background-art-off.xml</include>
       <include name="on" displayName="Centered">./_inc/subsets/background-art-on.xml</include>
@@ -238,8 +271,8 @@ license:        creative commons CC-BY-NC-SA
    </subset>
    <subset name="metadata" displayName="Metadata">
       <include name="off" displayName="Off">./_inc/subsets/metadata-off.xml</include>
-      <include name="on" displayName="Min">./_inc/subsets/metadata-on.xml</include>
-      <include name="full-screen" displayName="Max">./_inc/subsets/metadata-fullscreen.xml</include>
+      <include name="min" displayName="Min">./_inc/subsets/metadata-min.xml</include>
+      <include name="max" displayName="Max">./_inc/subsets/metadata-max.xml</include>
       <include name="media-only" displayName="Media Only">./_inc/subsets/metadata-media-only.xml</include>
    </subset>
    <subset name="88-mph" displayName="1.21 GIGAWATTS!!">

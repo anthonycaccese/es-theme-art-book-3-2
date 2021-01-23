@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <include>./metadata-on.xml</include>
+
+   <view name="detailed,video,grid">
+      <textlist name="gamelist">
+         <size>0.42 0.825</size>
+         <alignment>left</alignment>
+      </textlist>
+      <text name="md_name">
+         <visible>true</visible>
+         <pos>0.5375 .685</pos>
+         <size>0.4 0.05</size>
+         <fontSize>0.036</fontSize>
+      </text>
+      <rating name="md_rating">
+         <visible>true</visible>
+         <pos>0.5375 .762</pos>
+         <size>0 0.04375</size>
+         <filledPath>./_inc/images/star-filled.svg</filledPath>
+         <unfilledPath>./_inc/images/star-empty.svg</unfilledPath>
+      </rating>
+      <text name="md_spacer" extra="true">
+         <pos>0.705 .762</pos>
+         <size>0.1666666666666667 0.05</size>
+         <text>|</text>
+         <fontSize>0.03</fontSize>
+      </text>
+      <datetime name="md_releasedate">
+         <visible>true</visible>
+         <pos>0.73 .762</pos>
+         <size>0.1666666666666667 0.05</size>
+         <fontSize>0.03</fontSize>
+      </datetime>
+      <text name="md_description">
+         <visible>true</visible>
+         <pos>0.5375 .83</pos>
+         <size>0.4 0.1</size>
+         <fontSize>0.03</fontSize>
+      </text>
+      <image name="md_image">
+         <pos>0.7375 0.414</pos>
+      </image>
+      <image name="md-media-mask" extra="true">
+         <path>./_inc/images/metadata-min.svg</path>
+      </image>
+   </view>
+
+   <view name="video,grid">
+      <video name="md_video">
+         <pos>0.7375 0.414</pos>
+      </video>
+   </view>
+
+   <view name="grid">
+      <imagegrid name="gamegrid">
+         <size>0.425 0.764</size>
+      </imagegrid>
+   </view>
+
+</theme>

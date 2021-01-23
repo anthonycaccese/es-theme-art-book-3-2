@@ -1,4 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
    <formatVersion>7</formatVersion>
+
+   <view name="detailed,video,grid">
+      <image name="help-favorite" extra="true">
+         <origin>0 0</origin>
+         <pos>0.5416666666666667 0.86</pos>
+         <size>0.1875 0.05</size>
+         <path>./_inc/images/help-favorite.svg</path>
+         <color>ffffff55</color>
+      </image>
+      <image name="help-launch" extra="true">
+         <origin>0 0</origin>
+         <pos>0.7666666666666667 0.86</pos>
+         <size>0.1666666666666667 0.05</size>
+         <path>./_inc/images/help-launch.svg</path>
+         <color>ffffff55</color>
+      </image>
+   </view>
+
+   <view name="detailed,video">
+      <image name="md-media-mask" extra="true">
+         <path>./_inc/images/metadata-off.svg</path>
+      </image>
+   </view>
+
+   <view name="grid">
+      <image name="background" extra="true">
+         <color>111111</color>
+      </image>
+   </view>
+
 </theme>

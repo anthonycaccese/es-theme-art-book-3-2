@@ -2,36 +2,8 @@
 <theme>
    <formatVersion>7</formatVersion>
 
-   <view name="basic,detailed,video,grid">
-      <image name="logo">
-         <origin>0 0</origin>
-         <pos>1 1</pos>
-      </image>
-      <text name="logoText">
-         <origin>0 0</origin>
-         <pos>1 1</pos>
-      </text>
-      <text name="system-name" extra="true">
-         <pos>0.15 0.065</pos>
-         <size>0.7 0.03125</size>
-         <text>${system.fullName}</text>
-         <alignment>center</alignment>
-         <fontSize>0.03125</fontSize><!-- 10 -->
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
-         <forceUppercase>true</forceUppercase>
-      </text>
-      <image name="background" extra="true">
-         <color>000000</color>
-      </image>
-   </view>
-
-   <view name="basic,detailed,video">
-      <textlist name="gamelist">
-         <pos>0.05 0.17</pos>
-         <size>0.9 0.825</size>
-         <horizontalMargin>0</horizontalMargin>
-      </textlist>
-   </view>
+   <include>./metadata-on.xml</include>
+   <include>./metadata-min.xml</include>
 
    <view name="detailed,video,grid">
       <textlist name="gamelist">
@@ -41,74 +13,56 @@
          <visible>true</visible>
          <pos>0.05 0.17</pos>
          <size>0.345833333333333 0.025</size>
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.028125</fontSize>
-         <alignment>left</alignment>
-         <color>777777</color>
       </text>
       <text name="md_name">
          <pos>0.05 0.22</pos>
          <size>0.345833333333333 0.0375</size>
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
-         <fontSize>0.0375</fontSize><!-- 12 -->
-         <alignment>left</alignment>
+         <fontSize>0.0375</fontSize>
       </text>
       <rating name="md_rating">
-         <visible>true</visible>
          <pos>0.05 0.28</pos>
          <size>0 0.04375</size>
-         <filledPath>./_inc/images/star-filled.svg</filledPath>
-         <unfilledPath>./_inc/images/star-empty.svg</unfilledPath>
       </rating>
       <text name="md_spacer" extra="true">
          <pos>0.21 0.28</pos>
-         <text>|</text>
          <size>0.1666666666666667 0.05</size>
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
-         <fontSize>0.03</fontSize>
       </text>
       <datetime name="md_releasedate">
-         <visible>true</visible>
          <pos>0.23 0.28</pos>
          <size>0.1666666666666667 0.05</size>
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.028125</fontSize>
-         <alignment>left</alignment>
       </datetime>
-      <image name="md_divider_1" extra="true">
+      <image name="md_divider_1,md_divider_2" extra="true">
          <origin>0 0</origin>
-         <pos>0.05 0.40</pos>
-         <size>0.345833333333333 0.003125</size>
-         <path>./_inc/images/space.png</path>
+         <size>0.34 0.003125</size>
+         <path>${spacerImage}</path>
          <tile>true</tile>
          <zIndex>4</zIndex>
          <color>222222</color>
       </image>
+      <image name="md_divider_1" extra="true">
+         <pos>0.05 0.40</pos>
+      </image>
+      <image name="md_divider_2" extra="true">
+         <pos>0.05 0.64</pos>
+      </image>
       <text name="md_lbl_playcount">
          <visible>true</visible>
          <pos>0.05 0.47</pos>
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.028125</fontSize>
-         <alignment>left</alignment>
-         <color>444444</color>
          <forceUppercase>true</forceUppercase>
          <text># of plays:</text>
       </text>
       <text name="md_playcount">
          <visible>true</visible>
-         <pos>0.22 0.47</pos>
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+         <pos>0.22 0.465</pos>
          <fontSize>0.028125</fontSize>
-         <alignment>left</alignment>
-         <color>444444</color>
       </text>
       <text name="md_lbl_lastplayed">
          <visible>true</visible>
          <pos>0.05 0.52</pos>
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.028125</fontSize>
-         <alignment>left</alignment>
-         <color>444444</color>
          <forceUppercase>true</forceUppercase>
          <text>Last Played:</text>
       </text>
@@ -116,17 +70,14 @@
          <visible>true</visible>
          <pos>0.22 0.52</pos>
          <size>.3 0</size>
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.028125</fontSize>
-         <alignment>left</alignment>
          <forceUppercase>true</forceUppercase>
-         <color>444444</color>
       </datetime>
-      <image name="md_divider_2" extra="true">
+      <image name="md_players_background" extra="true">
          <origin>0 0</origin>
-         <pos>0.05 0.64</pos>
-         <size>0.345833333333333 0.003125</size>
-         <path>./_inc/images/space.png</path>
+         <pos>0.866666666666667 0.83125</pos>
+         <size>0.070833333333333 0.075</size>
+         <path>${spacerImage}</path>
          <tile>true</tile>
          <zIndex>4</zIndex>
          <color>222222</color>
@@ -136,38 +87,26 @@
          <origin>1 1</origin>
          <pos>0.91 0.886</pos>
          <size>0.0375 0.025</size>
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.025</fontSize>
          <alignment>right</alignment>
-         <color>cccccc</color>
       </text>
       <text name="md_lbl_players">
          <visible>true</visible>
          <origin>1 1</origin>
          <pos>0.9291666666666667 0.886</pos>
          <size>0.018 0.025</size>
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.025</fontSize>
          <alignment>right</alignment>
-         <color>cccccc</color>
          <text>P</text>
       </text>
       <text name="md_description">
          <visible>true</visible>
          <pos>0.05 .72</pos>
          <size>0.3 0.2</size>
-         <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.03</fontSize>
       </text>
       <image name="md-media-mask" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <path>./_inc/images/media-mask.svg</path>
-         <zIndex>3</zIndex>
-      </image>
-      <image name="md_media_bezel,md_media_screen,help-launch,help-favorite" extra="true">
-         <visible>false</visible>
+         <path>./_inc/images/metadata-max.svg</path>
       </image>
    </view>
 
@@ -190,32 +129,16 @@
       <video name="md_video">
          <pos>0.6979166666666667 0.546875</pos><!-- x=335 y=175 -->
          <maxSize>0.7875 0.88125</maxSize><!-- 378 x 282 -->
-         <zIndex>2</zIndex>
          <delay>0.2</delay>
          <showSnapshotDelay>false</showSnapshotDelay>
          <showSnapshotNoVideo>false</showSnapshotNoVideo>
       </video>
    </view>
 
-   <view name="basic">
-      <image name="background" extra="true">
-         <color>111111</color>
-      </image>
-   </view>
-
    <view name="grid">
-      <image name="md_media_bezel,md_media_screen">
-         <visible>false</visible>
-      </image>
-      <video name="md_video">
-         <visible>true</visible>
-      </video>
       <imagegrid name="gamegrid">
          <pos>1 1</pos>
       </imagegrid>
-      <text name="gridtile">
-         <visible>false</visible>
-      </text>
    </view>
 
 </theme>
