@@ -238,8 +238,9 @@ license:        creative commons CC-BY-NC-SA
    </subset>
    <subset name="metadata" displayName="Metadata">
       <include name="off" displayName="Off">./_inc/subsets/metadata-off.xml</include>
-      <include name="on" displayName="Minimal">./_inc/subsets/metadata-on.xml</include>
-      <include name="full-screen" displayName="Full Screen">./_inc/subsets/metadata-fullscreen.xml</include>
+      <include name="on" displayName="Min">./_inc/subsets/metadata-on.xml</include>
+      <include name="full-screen" displayName="Max">./_inc/subsets/metadata-fullscreen.xml</include>
+      <include name="media-only" displayName="Media Only">./_inc/subsets/metadata-media-only.xml</include>
    </subset>
    <subset name="88-mph" displayName="1.21 GIGAWATTS!!">
       <include name="off" displayName="Off">./_inc/subsets/88-mph-off.xml</include>
