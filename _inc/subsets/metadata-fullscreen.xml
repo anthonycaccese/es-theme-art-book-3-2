@@ -35,25 +35,19 @@
 
    <view name="detailed,video,grid">
       <textlist name="gamelist">
-         <!--<pos>1 1</pos>-->
-         <size>0.345833333333333 0.27</size>
-         <alignment>left</alignment>
-         <fontSize>0.025</fontSize>
-         <zIndex>100</zIndex>
+         <pos>1 1</pos>
       </textlist>
       <text name="md_genre">
          <visible>true</visible>
-         <!--<pos>0.05 0.17</pos>-->
-         <pos>0.05 0.47</pos>
+         <pos>0.05 0.17</pos>
          <size>0.345833333333333 0.025</size>
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
-         <fontSize>0.025</fontSize>
+         <fontSize>0.028125</fontSize>
          <alignment>left</alignment>
          <color>777777</color>
       </text>
       <text name="md_name">
-         <!--<pos>0.05 0.22</pos>-->
-         <pos>0.05 0.52</pos>
+         <pos>0.05 0.22</pos>
          <size>0.345833333333333 0.0375</size>
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.0375</fontSize><!-- 12 -->
@@ -61,15 +55,13 @@
       </text>
       <rating name="md_rating">
          <visible>true</visible>
-         <!--<pos>0.05 0.28</pos>-->
-         <pos>0.05 0.58</pos><!-- 24 195 -->
+         <pos>0.05 0.28</pos>
          <size>0 0.04375</size>
          <filledPath>./_inc/images/star-filled.svg</filledPath>
          <unfilledPath>./_inc/images/star-empty.svg</unfilledPath>
       </rating>
       <text name="md_spacer" extra="true">
-         <!--<pos>0.21 0.28</pos>-->
-         <pos>0.21 0.58</pos>
+         <pos>0.21 0.28</pos>
          <text>|</text>
          <size>0.1666666666666667 0.05</size>
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
@@ -77,17 +69,24 @@
       </text>
       <datetime name="md_releasedate">
          <visible>true</visible>
-         <!--<pos>0.23 0.28</pos>-->
-         <pos>0.23 0.58</pos>
+         <pos>0.23 0.28</pos>
          <size>0.1666666666666667 0.05</size>
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
-         <fontSize>0.025</fontSize>
+         <fontSize>0.028125</fontSize>
          <alignment>left</alignment>
       </datetime>
+      <image name="md_divider_1" extra="true">
+         <origin>0 0</origin>
+         <pos>0.05 0.40</pos>
+         <size>0.345833333333333 0.003125</size>
+         <path>./_inc/images/space.png</path>
+         <tile>true</tile>
+         <zIndex>4</zIndex>
+         <color>222222</color>
+      </image>
       <text name="md_lbl_playcount">
          <visible>true</visible>
-         <pos>0.05 0.68</pos>
-         <!--<pos>0.05 0.48</pos>-->
+         <pos>0.05 0.47</pos>
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.028125</fontSize>
          <alignment>left</alignment>
@@ -97,8 +96,7 @@
       </text>
       <text name="md_playcount">
          <visible>true</visible>
-         <pos>0.22 0.68</pos>
-         <!--<pos>0.22 0.48</pos>-->
+         <pos>0.22 0.47</pos>
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.028125</fontSize>
          <alignment>left</alignment>
@@ -106,8 +104,7 @@
       </text>
       <text name="md_lbl_lastplayed">
          <visible>true</visible>
-         <pos>0.05 0.74</pos>
-         <!--<pos>0.05 0.54</pos>-->
+         <pos>0.05 0.52</pos>
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.028125</fontSize>
          <alignment>left</alignment>
@@ -117,8 +114,7 @@
       </text>
       <datetime name="md_lastplayed">
          <visible>true</visible>
-         <pos>0.22 0.74</pos>
-         <!--<pos>0.22 0.54</pos>-->
+         <pos>0.22 0.52</pos>
          <size>.3 0</size>
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.028125</fontSize>
@@ -126,6 +122,15 @@
          <forceUppercase>true</forceUppercase>
          <color>444444</color>
       </datetime>
+      <image name="md_divider_2" extra="true">
+         <origin>0 0</origin>
+         <pos>0.05 0.64</pos>
+         <size>0.345833333333333 0.003125</size>
+         <path>./_inc/images/space.png</path>
+         <tile>true</tile>
+         <zIndex>4</zIndex>
+         <color>222222</color>
+      </image>
       <text name="md_players">
          <visible>true</visible>
          <origin>1 1</origin>
@@ -149,10 +154,8 @@
       </text>
       <text name="md_description">
          <visible>true</visible>
-         <!--<pos>0.05 .73</pos>-->
-         <pos>0.05 .83</pos>
-         <!--<size>0.3 0.2</size>-->
-         <size>0.3 0.1</size>
+         <pos>0.05 .72</pos>
+         <size>0.3 0.2</size>
          <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
          <fontSize>0.03</fontSize>
       </text>
@@ -201,19 +204,14 @@
    </view>
 
    <view name="grid">
-      <image name="md_media_bezel,md_media_screen, md_image">
+      <image name="md_media_bezel,md_media_screen">
          <visible>false</visible>
       </image>
       <video name="md_video">
          <visible>true</visible>
       </video>
       <imagegrid name="gamegrid">
-         <!--<pos>1 1</pos>-->
-         <pos>0.05 0.17</pos>
-         <size>0.345833333333333 0.29375</size>
-         <autoLayout>1 1</autoLayout>
-         <centerSelection>false</centerSelection>
-         <scrollDirection>vertical</scrollDirection>
+         <pos>1 1</pos>
       </imagegrid>
       <text name="gridtile">
          <visible>false</visible>
