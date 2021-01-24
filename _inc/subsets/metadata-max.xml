@@ -7,9 +7,6 @@
 
    <view name="detailed,video,grid">
 
-      <textlist name="gamelist">
-         <pos>1 1</pos>
-      </textlist>
       <image name="md-media-mask" extra="true">
          <path>./_inc/images/metadata-max.svg</path>
       </image>
@@ -21,13 +18,33 @@
          <size>0.345833333333333 0.025</size>
          <fontSize>0.028125</fontSize>
       </text>
+      <textlist name="gamelist">
+         <pos>0.05 0.195</pos>
+         <size>0.345833333333333 0.09</size>
+         <horizontalMargin>0</horizontalMargin>
+         <fontSize>0.0375</fontSize>
+         <selectorColor>111111</selectorColor>
+      </textlist>
       <text name="md_name">
-         <pos>0.05 0.20</pos>
+         <visible>false</visible>
+         <!--<pos>0.05 0.20</pos>
          <size>0.345833333333333 0.14</size>
          <fontSize>0.0375</fontSize>
          <lineSpacing>1.2</lineSpacing>
-         <verticalAlignment>top</verticalAlignment>
+         <verticalAlignment>top</verticalAlignment>-->
       </text>
+
+      <!-- Rating & Release Date -->
+      <rating name="md_rating">
+         <pos>0.05 0.265</pos>
+         <size>0 0.04375</size>
+         <backgroundColor>FF0000</backgroundColor>
+      </rating>
+      <datetime name="md_releasedate">
+         <pos>0.21 0.265</pos>
+         <size>0.1666666666666667 0.05</size>
+         <fontSize>0.028125</fontSize>
+      </datetime>
 
       <image name="md_divider_1,md_divider_2" extra="true">
          <origin>0 0</origin>
@@ -38,25 +55,13 @@
          <color>222222</color>
       </image>
       <image name="md_divider_1" extra="true">
-         <pos>0.05 0.355</pos>
+         <pos>0.05 0.34</pos>
       </image>
-
-      <!-- Rating & Release Date -->
-      <rating name="md_rating">
-         <pos>0.05 0.385</pos>
-         <size>0 0.04375</size>
-         <backgroundColor>FF0000</backgroundColor>
-      </rating>
-      <datetime name="md_releasedate">
-         <pos>0.21 0.385</pos>
-         <size>0.1666666666666667 0.05</size>
-         <fontSize>0.028125</fontSize>
-      </datetime>
 
       <!-- Last Played -->
       <text name="md_lbl_lastplayed">
          <visible>true</visible>
-         <pos>0.05 0.465</pos>
+         <pos>0.05 0.38</pos>
          <size>0.2 0.028125</size>
          <fontSize>0.028125</fontSize>
          <forceUppercase>true</forceUppercase>
@@ -64,7 +69,7 @@
       </text>
       <datetime name="md_lastplayed">
          <visible>true</visible>
-         <pos>0.21 0.465</pos>
+         <pos>0.21 0.38</pos>
          <size>0.2 0.028125</size>
          <fontSize>0.028125</fontSize>
          <forceUppercase>true</forceUppercase>
@@ -73,7 +78,7 @@
       <!-- Playcount -->
       <text name="md_lbl_playcount">
          <visible>true</visible>
-         <pos>0.05 0.53</pos>
+         <pos>0.05 0.435</pos>
          <size>0.2 0.028125</size>
          <fontSize>0.028125</fontSize>
          <forceUppercase>true</forceUppercase>
@@ -81,7 +86,7 @@
       </text>
       <text name="md_playcount">
          <visible>true</visible>
-         <pos>0.21 0.53</pos>
+         <pos>0.21 0.435</pos>
          <size>0.2 0.028125</size>
          <fontSize>0.028125</fontSize>
       </text>
