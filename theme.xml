@@ -105,10 +105,13 @@ license:        creative commons CC-BY-NC-SA
          <alignment>left</alignment>
          <color>ffffff</color>
       </text>
-      <text name="md_genre,md_description,md_lbl_players,md_players">
+      <text name="md_genre,md_lbl_players,md_players">
          <color>777777</color>
       </text>
-      <text name="md_lbl_lastplayed,md_lbl_playcount,md_playcount">
+      <text name="md_description">
+         <color>999999</color>
+      </text>
+      <text name="md_lbl_lastplayed,md_lbl_playcount,md_playcount,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher">
          <color>444444</color>
       </text>
       <datetime name="md_releasedate,md_lastplayed">

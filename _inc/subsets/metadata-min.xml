@@ -22,15 +22,9 @@
          <filledPath>./_inc/images/star-filled.svg</filledPath>
          <unfilledPath>./_inc/images/star-empty.svg</unfilledPath>
       </rating>
-      <text name="md_spacer" extra="true">
-         <pos>0.705 .762</pos>
-         <size>0.1666666666666667 0.05</size>
-         <text>|</text>
-         <fontSize>0.03</fontSize>
-      </text>
       <datetime name="md_releasedate">
          <visible>true</visible>
-         <pos>0.73 .762</pos>
+         <pos>0.6975 .762</pos>
          <size>0.1666666666666667 0.05</size>
          <fontSize>0.03</fontSize>
       </datetime>

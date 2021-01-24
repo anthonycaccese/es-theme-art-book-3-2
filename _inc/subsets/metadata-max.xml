@@ -6,9 +6,15 @@
    <include>./metadata-min.xml</include>
 
    <view name="detailed,video,grid">
+
       <textlist name="gamelist">
          <pos>1 1</pos>
       </textlist>
+      <image name="md-media-mask" extra="true">
+         <path>./_inc/images/metadata-max.svg</path>
+      </image>
+
+      <!-- Genre & Name -->
       <text name="md_genre">
          <visible>true</visible>
          <pos>0.05 0.17</pos>
@@ -16,23 +22,13 @@
          <fontSize>0.028125</fontSize>
       </text>
       <text name="md_name">
-         <pos>0.05 0.22</pos>
-         <size>0.345833333333333 0.0375</size>
+         <pos>0.05 0.20</pos>
+         <size>0.345833333333333 0.14</size>
          <fontSize>0.0375</fontSize>
+         <lineSpacing>1.2</lineSpacing>
+         <verticalAlignment>top</verticalAlignment>
       </text>
-      <rating name="md_rating">
-         <pos>0.05 0.28</pos>
-         <size>0 0.04375</size>
-      </rating>
-      <text name="md_spacer" extra="true">
-         <pos>0.21 0.28</pos>
-         <size>0.1666666666666667 0.05</size>
-      </text>
-      <datetime name="md_releasedate">
-         <pos>0.23 0.28</pos>
-         <size>0.1666666666666667 0.05</size>
-         <fontSize>0.028125</fontSize>
-      </datetime>
+
       <image name="md_divider_1,md_divider_2" extra="true">
          <origin>0 0</origin>
          <size>0.34 0.003125</size>
@@ -42,37 +38,101 @@
          <color>222222</color>
       </image>
       <image name="md_divider_1" extra="true">
-         <pos>0.05 0.40</pos>
+         <pos>0.05 0.355</pos>
       </image>
-      <image name="md_divider_2" extra="true">
-         <pos>0.05 0.64</pos>
-      </image>
-      <text name="md_lbl_playcount">
-         <visible>true</visible>
-         <pos>0.05 0.47</pos>
+
+      <!-- Rating & Release Date -->
+      <rating name="md_rating">
+         <pos>0.05 0.385</pos>
+         <size>0 0.04375</size>
+         <backgroundColor>FF0000</backgroundColor>
+      </rating>
+      <datetime name="md_releasedate">
+         <pos>0.21 0.385</pos>
+         <size>0.1666666666666667 0.05</size>
          <fontSize>0.028125</fontSize>
-         <forceUppercase>true</forceUppercase>
-         <text># of plays:</text>
-      </text>
-      <text name="md_playcount">
-         <visible>true</visible>
-         <pos>0.22 0.465</pos>
-         <fontSize>0.028125</fontSize>
-      </text>
+      </datetime>
+
+      <!-- Last Played -->
       <text name="md_lbl_lastplayed">
          <visible>true</visible>
-         <pos>0.05 0.52</pos>
+         <pos>0.05 0.465</pos>
+         <size>0.2 0.028125</size>
          <fontSize>0.028125</fontSize>
          <forceUppercase>true</forceUppercase>
          <text>Last Played:</text>
       </text>
       <datetime name="md_lastplayed">
          <visible>true</visible>
-         <pos>0.22 0.52</pos>
-         <size>.3 0</size>
+         <pos>0.21 0.465</pos>
+         <size>0.2 0.028125</size>
          <fontSize>0.028125</fontSize>
          <forceUppercase>true</forceUppercase>
       </datetime>
+
+      <!-- Playcount -->
+      <text name="md_lbl_playcount">
+         <visible>true</visible>
+         <pos>0.05 0.53</pos>
+         <size>0.2 0.028125</size>
+         <fontSize>0.028125</fontSize>
+         <forceUppercase>true</forceUppercase>
+         <text># of plays:</text>
+      </text>
+      <text name="md_playcount">
+         <visible>true</visible>
+         <pos>0.21 0.53</pos>
+         <size>0.2 0.028125</size>
+         <fontSize>0.028125</fontSize>
+      </text>
+
+      <!-- Developer -->
+      <text name="md_lbl_developer">
+         <visible>true</visible>
+         <pos>0.05 0.595</pos>
+         <size>0.2 0.028125</size>
+         <fontSize>0.028125</fontSize>
+         <forceUppercase>true</forceUppercase>
+         <text>Developer:</text>
+      </text>
+      <text name="md_developer">
+         <visible>true</visible>
+         <pos>0.21 0.595</pos>
+         <size>0.2 0.028125</size>
+         <fontSize>0.028125</fontSize>
+      </text>
+
+      <!-- Publisher -->
+      <text name="md_lbl_publisher">
+         <visible>true</visible>
+         <pos>0.05 0.66</pos>
+         <size>0.2 0.028125</size>
+         <fontSize>0.028125</fontSize>
+         <forceUppercase>true</forceUppercase>
+         <text>Publisher:</text>
+      </text>
+      <text name="md_publisher">
+         <visible>true</visible>
+         <pos>0.21 0.66</pos>
+         <size>0.2 0.028125</size>
+         <fontSize>0.028125</fontSize>
+      </text>
+
+      <image name="md_divider_2" extra="true">
+         <pos>0.05 0.725</pos>
+      </image>
+
+      <!-- Description -->
+      <text name="md_description">
+         <visible>true</visible>
+         <!--<pos>0.05 .72</pos>
+         <size>0.36 0.205</size>-->
+         <pos>0.05 .77</pos>
+         <size>0.36 0.155</size>
+         <fontSize>0.03</fontSize>
+      </text>
+
+      <!-- Players -->
       <image name="md_players_background" extra="true">
          <origin>0 0</origin>
          <pos>0.866666666666667 0.83125</pos>
@@ -99,21 +159,12 @@
          <alignment>right</alignment>
          <text>P</text>
       </text>
-      <text name="md_description">
-         <visible>true</visible>
-         <pos>0.05 .72</pos>
-         <size>0.3 0.2</size>
-         <fontSize>0.03</fontSize>
-      </text>
-      <image name="md-media-mask" extra="true">
-         <path>./_inc/images/metadata-max.svg</path>
-      </image>
    </view>
 
    <view name="detailed">
       <image name="md_image">
          <origin>0.5 0.5</origin>
-         <pos>0.6979166666666667 0.546875</pos><!-- x=335 y=175 -->
+         <pos>0.6979166666666667 0.546875</pos>
          <maxSize>0.4791666666666667 0.71875</maxSize>
          <zIndex>2</zIndex>
       </image>
@@ -123,12 +174,13 @@
       <image name="md_image">
          <visible>true</visible>
          <origin>0 1</origin>
-         <pos>0.4375 0.925</pos>
+         <!--<pos>0.4375 0.925</pos>-->
+         <pos>0.4458333333333333 0.925</pos>
          <maxSize>0.2083333333333333 0.3125</maxSize>
       </image>
       <video name="md_video">
-         <pos>0.6979166666666667 0.546875</pos><!-- x=335 y=175 -->
-         <maxSize>0.7875 0.88125</maxSize><!-- 378 x 282 -->
+         <pos>0.6979166666666667 0.546875</pos>
+         <maxSize>0.7875 0.88125</maxSize>
          <delay>0.2</delay>
          <showSnapshotDelay>false</showSnapshotDelay>
          <showSnapshotNoVideo>false</showSnapshotNoVideo>

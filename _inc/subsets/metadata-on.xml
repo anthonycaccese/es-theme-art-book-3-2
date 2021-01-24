@@ -12,11 +12,11 @@
          <pos>1 1</pos>
       </text>
       <text name="system-name" extra="true">
-         <pos>0.15 0.065</pos>
+         <pos>0.15 0.055</pos>
          <size>0.7 0.03125</size>
          <text>${system.fullName}</text>
          <alignment>center</alignment>
-         <fontSize>0.03125</fontSize><!-- 10 -->
+         <fontSize>0.028125</fontSize>
          <fontPath>${bodyFont}</fontPath>
          <forceUppercase>true</forceUppercase>
       </text>
