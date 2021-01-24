@@ -19,7 +19,7 @@
          <fontSize>0.028125</fontSize>
       </text>
       <textlist name="gamelist">
-         <pos>0.05 0.195</pos>
+         <pos>0.05 0.2</pos>
          <size>0.345833333333333 0.09</size>
          <horizontalMargin>0</horizontalMargin>
          <fontSize>0.0375</fontSize>
@@ -36,12 +36,12 @@
 
       <!-- Rating & Release Date -->
       <rating name="md_rating">
-         <pos>0.05 0.265</pos>
+         <pos>0.05 0.275</pos>
          <size>0 0.04375</size>
          <backgroundColor>FF0000</backgroundColor>
       </rating>
       <datetime name="md_releasedate">
-         <pos>0.21 0.265</pos>
+         <pos>0.21 0.275</pos>
          <size>0.1666666666666667 0.05</size>
          <fontSize>0.028125</fontSize>
       </datetime>
@@ -55,13 +55,13 @@
          <color>222222</color>
       </image>
       <image name="md_divider_1" extra="true">
-         <pos>0.05 0.34</pos>
+         <pos>0.05 0.35</pos>
       </image>
 
       <!-- Last Played -->
       <text name="md_lbl_lastplayed">
          <visible>true</visible>
-         <pos>0.05 0.38</pos>
+         <pos>0.05 0.39</pos>
          <size>0.2 0.028125</size>
          <fontSize>0.028125</fontSize>
          <forceUppercase>true</forceUppercase>
@@ -69,7 +69,7 @@
       </text>
       <datetime name="md_lastplayed">
          <visible>true</visible>
-         <pos>0.21 0.38</pos>
+         <pos>0.21 0.39</pos>
          <size>0.2 0.028125</size>
          <fontSize>0.028125</fontSize>
          <forceUppercase>true</forceUppercase>
@@ -78,7 +78,7 @@
       <!-- Playcount -->
       <text name="md_lbl_playcount">
          <visible>true</visible>
-         <pos>0.05 0.435</pos>
+         <pos>0.05 0.445</pos>
          <size>0.2 0.028125</size>
          <fontSize>0.028125</fontSize>
          <forceUppercase>true</forceUppercase>
@@ -86,7 +86,7 @@
       </text>
       <text name="md_playcount">
          <visible>true</visible>
-         <pos>0.21 0.435</pos>
+         <pos>0.21 0.445</pos>
          <size>0.2 0.028125</size>
          <fontSize>0.028125</fontSize>
       </text>
@@ -94,7 +94,7 @@
       <!-- Developer -->
       <text name="md_lbl_developer">
          <visible>true</visible>
-         <pos>0.05 0.595</pos>
+         <pos>0.05 0.605</pos>
          <size>0.2 0.028125</size>
          <fontSize>0.028125</fontSize>
          <forceUppercase>true</forceUppercase>
@@ -102,7 +102,7 @@
       </text>
       <text name="md_developer">
          <visible>true</visible>
-         <pos>0.21 0.595</pos>
+         <pos>0.21 0.605</pos>
          <size>0.2 0.028125</size>
          <fontSize>0.028125</fontSize>
       </text>
