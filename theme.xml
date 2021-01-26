@@ -99,7 +99,7 @@ license:        creative commons CC-BY-NC-SA
    </view>
 
    <view name="detailed,video,grid">
-      <text name="md_lbl_rating,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_playcount,md_playcount,md_lbl_lastplayed,md_lbl_players,md_players,md_lbl_releasedate,md_lbl_genre,md_genre,md_description,md_name">
+      <text name="md_lbl_rating,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_playcount,md_playcount,md_lbl_lastplayed,md_lbl_players,md_players,md_lbl_releasedate,md_lbl_genre,md_genre,md_description,md_name,md_lbl_gametime,md_gametime">
          <visible>false</visible>
          <fontPath>${bodyFont}</fontPath>
          <alignment>left</alignment>
@@ -111,7 +111,7 @@ license:        creative commons CC-BY-NC-SA
       <text name="md_description">
          <color>999999</color>
       </text>
-      <text name="md_lbl_lastplayed,md_lbl_playcount,md_playcount,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher">
+      <text name="md_lbl_lastplayed,md_lbl_playcount,md_playcount,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_gametime,md_gametime">
          <color>444444</color>
       </text>
       <datetime name="md_releasedate,md_lastplayed">

@@ -91,6 +91,22 @@
          <fontSize>0.028125</fontSize>
       </text>
 
+      <!-- Gametime -->
+      <text name="md_lbl_gametime">
+         <visible>true</visible>
+         <pos>0.05 0.5</pos>
+         <size>0.2 0.028125</size>
+         <fontSize>0.028125</fontSize>
+         <forceUppercase>true</forceUppercase>
+         <text>Time Played:</text>
+      </text>
+      <text name="md_gametime">
+         <visible>true</visible>
+         <pos>0.21 0.5</pos>
+         <size>0.2 0.028125</size>
+         <fontSize>0.028125</fontSize>
+      </text>
+
       <!-- Developer -->
       <text name="md_lbl_developer">
          <visible>true</visible>

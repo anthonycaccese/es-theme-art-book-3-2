@@ -46,6 +46,14 @@
          <pos>0.764166666666667 0.445</pos>
       </text>
 
+      <!-- Gametime -->
+      <text name="md_lbl_gametime">
+         <pos>0.604166666666667 0.5</pos>
+      </text>
+      <text name="md_gametime">
+         <pos>0.764166666666667 0.5</pos>
+      </text>
+
       <!-- Developer -->
       <text name="md_lbl_developer">
          <pos>0.604166666666667 0.605</pos>
