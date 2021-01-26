@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <include>./metadata-max.xml</include>
+
+   <view name="detailed,video,grid">
+
+      <image name="md-media-mask" extra="true">
+         <path>./_inc/images/metadata-max-flipped.svg</path>
+      </image>
+
+      <!-- Genre & Name -->
+      <text name="md_genre">
+         <pos>0.604166666666667 0.17</pos>
+      </text>
+      <textlist name="gamelist">
+         <pos>0.604166666666667 0.2</pos>
+      </textlist>
+
+      <!-- Rating & Release Date -->
+      <rating name="md_rating">
+         <pos>0.604166666666667 0.275</pos>
+      </rating>
+      <datetime name="md_releasedate">
+         <pos>0.764166666666667 0.275</pos>
+      </datetime>
+
+      <image name="md_divider_1" extra="true">
+         <pos>0.604166666666667 0.35</pos>
+      </image>
+
+      <!-- Last Played -->
+      <text name="md_lbl_lastplayed">
+         <pos>0.604166666666667 0.39</pos>
+      </text>
+      <datetime name="md_lastplayed">
+         <pos>0.764166666666667 0.39</pos>
+      </datetime>
+
+      <!-- Playcount -->
+      <text name="md_lbl_playcount">
+         <pos>0.604166666666667 0.445</pos>
+      </text>
+      <text name="md_playcount">
+         <pos>0.764166666666667 0.445</pos>
+      </text>
+
+      <!-- Developer -->
+      <text name="md_lbl_developer">
+         <pos>0.604166666666667 0.605</pos>
+      </text>
+      <text name="md_developer">
+         <pos>0.764166666666667 0.605</pos>
+      </text>
+
+      <!-- Publisher -->
+      <text name="md_lbl_publisher">
+         <pos>0.604166666666667 0.66</pos>
+      </text>
+      <text name="md_publisher">
+         <pos>0.764166666666667 0.66</pos>
+      </text>
+
+      <image name="md_divider_2" extra="true">
+         <pos>0.604166666666667 0.725</pos>
+      </image>
+
+      <!-- Description -->
+      <text name="md_description">
+         <pos>0.604166666666667 .77</pos>
+      </text>
+
+      <!-- Players -->
+      <image name="md_players_background" extra="true">
+         <pos>0.0625 0.83125</pos>
+      </image>
+      <text name="md_players">
+         <pos>0.095 0.886</pos>
+      </text>
+      <text name="md_lbl_players">
+         <pos>0.114166666666667 0.886</pos>
+      </text>
+   </view>
+
+   <view name="detailed">
+      <image name="md_image">
+         <pos>0.3 0.546875</pos>
+      </image>
+   </view>
+
+   <view name="video,grid">
+      <image name="md_image">
+         <origin>1 1</origin>
+         <pos>0.554166666666667 0.925</pos>
+      </image>
+      <video name="md_video">
+         <pos>0.3 0.546875</pos>
+      </video>
+   </view>
+
+</theme>
