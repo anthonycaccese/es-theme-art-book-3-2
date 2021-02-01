@@ -27,11 +27,6 @@
       </textlist>
       <text name="md_name">
          <visible>false</visible>
-         <!--<pos>0.05 0.20</pos>
-         <size>0.345833333333333 0.14</size>
-         <fontSize>0.0375</fontSize>
-         <lineSpacing>1.2</lineSpacing>
-         <verticalAlignment>top</verticalAlignment>-->
       </text>
 
       <!-- Rating & Release Date -->
@@ -146,8 +141,6 @@
       <!-- Description -->
       <text name="md_description">
          <visible>true</visible>
-         <!--<pos>0.05 .72</pos>
-         <size>0.36 0.205</size>-->
          <pos>0.05 .77</pos>
          <size>0.36 0.155</size>
          <fontSize>0.03</fontSize>
@@ -195,7 +188,6 @@
       <image name="md_image">
          <visible>true</visible>
          <origin>0 1</origin>
-         <!--<pos>0.4375 0.925</pos>-->
          <pos>0.4458333333333333 0.925</pos>
          <maxSize>0.2083333333333333 0.3125</maxSize>
       </image>

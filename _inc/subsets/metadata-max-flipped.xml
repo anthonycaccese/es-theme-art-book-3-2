@@ -81,13 +81,13 @@
 
       <!-- Players -->
       <image name="md_players_background" extra="true">
-         <pos>0.0625 0.83125</pos>
+         <pos>0.4708333333333337 0.83125</pos>
       </image>
       <text name="md_players">
-         <pos>0.095 0.886</pos>
+         <pos>0.5141666666666667 0.886</pos>
       </text>
       <text name="md_lbl_players">
-         <pos>0.114166666666667 0.886</pos>
+         <pos>0.5333333333333334 0.886</pos>
       </text>
    </view>
 
@@ -99,8 +99,7 @@
 
    <view name="video,grid">
       <image name="md_image">
-         <origin>1 1</origin>
-         <pos>0.554166666666667 0.925</pos>
+         <pos>0.05 0.925</pos>
       </image>
       <video name="md_video">
          <pos>0.3 0.546875</pos>
