@@ -275,6 +275,7 @@ license:        creative commons CC-BY-NC-SA
    <subset name="metadata" displayName="Metadata">
       <include name="off" displayName="Off">./_inc/subsets/metadata-off.xml</include>
       <include name="min" displayName="Min">./_inc/subsets/metadata-min.xml</include>
+      <include name="min-flipped" displayName="Min (Flipped)">./_inc/subsets/metadata-min-flipped.xml</include>
       <include name="max" displayName="Max">./_inc/subsets/metadata-max.xml</include>
       <include name="max-flipped" displayName="Max (Flipped)">./_inc/subsets/metadata-max-flipped.xml</include>
    </subset>

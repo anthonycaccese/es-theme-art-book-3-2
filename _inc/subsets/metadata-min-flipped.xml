@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <include>./metadata-min.xml</include>
+
+   <view name="detailed,video,grid">
+      <textlist name="gamelist">
+         <pos>0.5375 0.17</pos>
+         <size>0.408333333333333 0.825</size>
+      </textlist>
+      <text name="md_name">
+         <pos>0.05 .685</pos>
+      </text>
+      <rating name="md_rating">
+         <pos>0.05 .762</pos>
+      </rating>
+      <datetime name="md_releasedate">
+         <pos>0.21 .762</pos>
+      </datetime>
+      <text name="md_description">
+         <pos>0.05 .83</pos>
+      </text>
+      <image name="md_image">
+         <pos>0.2625 0.414</pos>
+      </image>
+      <image name="md-media-mask" extra="true">
+         <path>./_inc/images/metadata-min-flipped.svg</path>
+      </image>
+   </view>
+
+   <view name="video,grid">
+      <video name="md_video">
+         <pos>0.2625 0.414</pos>
+      </video>
+   </view>
+
+   <view name="grid">
+      <imagegrid name="gamegrid">
+         <pos>0.5375 0.17</pos>
+      </imagegrid>
+   </view>
+
+</theme>
