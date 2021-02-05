@@ -48,5 +48,5 @@ Discussion for the base Art book theme is ongoing in this thread: https://retrop
 
 - 351ELEC by fewtarius - https://github.com/fewtarius/351ELEC
 - Full Screen Background Art created and provided by Szalik
-- Some logo graphics are modified from the Carbom theme by Eric Hettervik
+- Some logo graphics are modified from the Carbon theme by Eric Hettervik
 - ChangaOne font by Eduardo Tunni
