@@ -10,16 +10,16 @@
          <size>0.408333333333333 0.825</size>
       </textlist>
       <text name="md_name">
-         <pos>0.05 .685</pos>
+         <pos>0.0625 .685</pos>
       </text>
       <rating name="md_rating">
-         <pos>0.05 .762</pos>
+         <pos>0.0625 .762</pos>
       </rating>
       <datetime name="md_releasedate">
-         <pos>0.21 .762</pos>
+         <pos>0.2225 .762</pos>
       </datetime>
       <text name="md_description">
-         <pos>0.05 .83</pos>
+         <pos>0.0625 .83</pos>
       </text>
       <image name="md_image">
          <pos>0.2625 0.414</pos>
