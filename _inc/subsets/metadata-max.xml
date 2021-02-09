@@ -194,7 +194,7 @@
       <video name="md_video">
          <pos>0.6979166666666667 0.546875</pos>
          <maxSize>0.7875 0.88125</maxSize>
-         <delay>0.2</delay>
+         <delay>0.0</delay>
          <showSnapshotDelay>false</showSnapshotDelay>
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
       </video>
