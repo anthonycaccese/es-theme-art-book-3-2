@@ -2,7 +2,7 @@
 <theme>
    <formatVersion>7</formatVersion>
 
-   <view name="detailed,video,grid">
+   <view name="detailed,video">
       <image name="help-options" extra="true">
          <origin>0 0</origin>
          <pos>0.5416666666666667 0.86</pos>
@@ -17,9 +17,6 @@
          <path>./_inc/images/help-launch.svg</path>
          <color>ffffff55</color>
       </image>
-   </view>
-
-   <view name="detailed,video">
       <image name="md-media-mask" extra="true">
          <path>./_inc/images/metadata-off.svg</path>
       </image>
