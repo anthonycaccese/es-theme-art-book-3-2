@@ -214,7 +214,7 @@ license:        creative commons CC-BY-NC-SA
    <view name="menu">
       <menuText name="menutitle">
          <fontPath>${bodyFont}</fontPath>
-         <fontSize>0.04</fontSize>
+         <fontSize>0.034375</fontSize>
          <color>ffffff</color>
       </menuText>
       <menuText name="menufooter">
@@ -224,7 +224,7 @@ license:        creative commons CC-BY-NC-SA
       </menuText>
       <menuText name="menutext">
          <fontPath>${bodyFont}</fontPath>
-         <fontSize>0.04</fontSize>
+         <fontSize>0.036</fontSize>
          <color>444444</color>
          <separatorColor>222222</separatorColor>
          <selectorColor>555555</selectorColor>
@@ -237,7 +237,7 @@ license:        creative commons CC-BY-NC-SA
       </menuTextSmall>
       <menuBackground name="menubg">
          <color>111111</color>
-         <centerColor>111111</centerColor>
+         <cornerSize>20 20</cornerSize>
       </menuBackground>
    </view>
 
