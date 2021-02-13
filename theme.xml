@@ -161,6 +161,8 @@ license:        creative commons CC-BY-NC-SA
          <delay>0.5</delay>
          <showSnapshotDelay>true</showSnapshotDelay>
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <snapshotSource>image</snapshotSource>
+         <snapshotSource>thumbnail</snapshotSource>
          <zIndex>2</zIndex>
       </video>
    </view>

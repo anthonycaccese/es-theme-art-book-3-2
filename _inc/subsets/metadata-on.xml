@@ -39,6 +39,7 @@
       </imagegrid>
       <video name="md_video">
          <visible>true</visible>
+         <snapshotSource>image</snapshotSource>
       </video>
       <text name="gridtile">
          <visible>false</visible>
