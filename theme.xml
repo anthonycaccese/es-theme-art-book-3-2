@@ -281,6 +281,7 @@ license:        creative commons CC-BY-NC-SA
       <include name="max" displayName="Max">./_inc/subsets/metadata-max.xml</include>
       <include name="max-flipped" displayName="Max (Flipped)">./_inc/subsets/metadata-max-flipped.xml</include>
       <include name="media-only" displayName="Media Only">./_inc/subsets/metadata-media-only.xml</include>
+      <include name="polymega" displayName="Polymega">./_inc/subsets/metadata-polymega.xml</include>
    </subset>
    <subset name="88-mph" displayName="1.21 GIGAWATTS!!">
       <include name="off" displayName="Off">./_inc/subsets/88-mph-off.xml</include>

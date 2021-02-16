@@ -100,6 +100,7 @@
          <pos>0.21 0.5</pos>
          <size>0.2 0.028125</size>
          <fontSize>0.028125</fontSize>
+         <forceUppercase>true</forceUppercase>
       </text>
 
       <!-- Developer -->
