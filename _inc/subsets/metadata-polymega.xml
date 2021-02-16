@@ -46,15 +46,15 @@
       <!-- Box Art & Marquee -->
       <image name="md_image">
          <origin>0.5 0</origin>
-         <pos>0.145833333333333 0.34375</pos><!-- 30,110 -->
+         <pos>0.145833333333333 0.34375</pos><!-- 70,110 -->
          <maxSize>0.208333333333333 0.4375</maxSize>
       </image>
-      <image name="md_marquee">
+      <!--<image name="md_marquee">
       	<visible>true</visible>
          <origin>0.5 0</origin>
-         <pos>0.145833333333333 0.8125</pos><!-- 30,260 -->
-         <maxSize>0.208333333333333 0.125</maxSize><!-- 100,40 -->
-      </image>
+         <pos>0.145833333333333 0.8125</pos>
+         <maxSize>0.208333333333333 0.125</maxSize>
+      </image>-->
 
       <!-- Name -->
       <text name="md_name">
@@ -96,24 +96,35 @@
 
       <!-- Description -->
       <text name="md_description">
-         <size>0.375 0.155</size><!-- 375,50 -->
-         <pos>0.291666666666667 0.78125</pos><!-- 140,250 -->
+         <size>0.395833333333333 0.155</size><!-- 190,50 -->
+         <pos>0.291666666666667 0.775</pos><!-- 140,248 -->
       </text>
+
+      <!-- Logo -->
+      <image name="logo">
+         <visible>true</visible>
+         <origin>0.5 0</origin>
+         <pos>0.854166666666667 0.46875</pos><!-- 410,162 -->
+         <maxSize>0.1875 0.078125</maxSize><!-- 90,25 -->
+         <color>444444</color>
+      </image>
 
       <!-- Last Played -->
       <text name="md_lbl_lastplayed">
          <visible>false</visible>
       </text>
       <image name="md_lastplayed_icon" extra="true">
-         <pos>0.760416666666667 0.484375</pos><!-- 365,155 -->
+         <pos>0.760416666666667 0.578125</pos><!-- 365,185 -->
          <path>./_inc/images/icon-calendar.svg</path>
          <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
          <color>444444</color>
       </image>
       <datetime name="md_lastplayed">
-         <pos>0.791666666666667 0.484375</pos><!-- 380,155 -->
+         <pos>0.795833333333333 0.578125</pos><!-- 382,185 -->
          <color>777777</color>
-         <size>0.177083333333333 0.028125</size>
+         <size>0.15625 0.03125</size><!-- 75, 10 -->
+         <fontSize>0.028125</fontSize><!-- 9 -->
+         <lineSpacing>1</lineSpacing>
       </datetime>
 
       <!-- Last Played -->
@@ -121,15 +132,17 @@
          <visible>false</visible>
       </text>
       <image name="md_playcount_icon" extra="true">
-         <pos>0.760416666666667 0.53125</pos><!-- 365,170 -->
+         <pos>0.760416666666667 0.634375</pos><!-- 365,203 -->
          <path>./_inc/images/icon-chart.svg</path>
          <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
          <color>444444</color>
       </image>
       <text name="md_playcount">
-         <pos>0.791666666666667 0.53125</pos><!-- 380,170 -->
+         <pos>0.795833333333333 0.634375</pos><!-- 382,203 -->
          <color>777777</color>
-         <size>0.177083333333333 0.028125</size>
+         <size>0.15625 0.03125</size><!-- 75, 10 -->
+         <fontSize>0.028125</fontSize><!-- 9 -->
+         <lineSpacing>1</lineSpacing>
       </text>
 
       <!-- Gametime -->
@@ -137,19 +150,21 @@
          <visible>false</visible>
       </text>
       <image name="md_gametime_icon" extra="true">
-         <pos>0.760416666666667 0.578125</pos><!-- 365,185 -->
+         <pos>0.760416666666667 0.690625</pos><!-- 365,221 -->
          <path>./_inc/images/icon-clock.svg</path>
          <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
          <color>444444</color>
       </image>
       <text name="md_gametime">
-         <pos>0.791666666666667 0.578125</pos><!-- 380,185 -->
+         <pos>0.795833333333333 0.690625</pos><!-- 382,221 -->
          <color>777777</color>
-         <size>0.177083333333333 0.028125</size>
+         <size>0.15625 0.03125</size><!-- 75, 10 -->
+         <fontSize>0.028125</fontSize><!-- 9 -->
+         <lineSpacing>1</lineSpacing>
       </text>
 
       <image name="md_divider_1" extra="true">
-         <pos>0.75 0.640625</pos><!-- 370,205 -->
+         <pos>0.75 0.746875</pos><!-- 360,239 -->
          <size>0.208333333333333 0.003125</size><!-- 100,1 -->
          <color>333333</color>
          <zIndex>10</zIndex>
@@ -160,19 +175,22 @@
          <visible>false</visible>
       </text>
       <image name="md_players_icon" extra="true">
-         <pos>0.760416666666667 0.671875</pos><!-- 365,215 -->
+         <pos>0.760416666666667 0.765625</pos><!-- 365,245 -->
          <path>./_inc/images/icon-players.svg</path>
          <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
          <color>444444</color>
       </image>
       <text name="md_players">
          <origin>0 0</origin>
-         <pos>0.791666666666667 0.671875</pos><!-- 380,215 -->
+         <pos>0.795833333333333 0.765625</pos><!-- 382,245 -->
          <alignment>left</alignment>
+         <size>0.15625 0.03125</size><!-- 75, 10 -->
+         <fontSize>0.028125</fontSize><!-- 9 -->
+         <lineSpacing>1</lineSpacing>
       </text>
 
       <image name="md_divider_2" extra="true">
-         <pos>0.75 0.734375</pos><!-- 370,235 -->
+         <pos>0.75 0.821875</pos><!-- 370,263 -->
          <size>0.208333333333333 0.003125</size><!-- 100,1 -->
          <color>333333</color>
          <zIndex>10</zIndex>
@@ -183,15 +201,17 @@
          <visible>false</visible>
       </text>
       <image name="md_developer_icon" extra="true">
-         <pos>0.760416666666667 0.765625</pos><!-- 365,245 -->
+         <pos>0.760416666666667 0.840625</pos><!-- 365,269 -->
          <path>./_inc/images/icon-wrench.svg</path>
          <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
          <color>444444</color>
       </image>
       <text name="md_developer">
-         <pos>0.791666666666667 0.765625</pos><!-- 380,245 -->
+         <pos>0.795833333333333 0.840625</pos><!-- 382,269 -->
          <color>777777</color>
-         <size>0.177083333333333 0.028125</size>
+         <size>0.15625 0.03125</size><!-- 75, 10 -->
+         <fontSize>0.028125</fontSize><!-- 9 -->
+         <lineSpacing>1</lineSpacing>
       </text>
 
       <!-- Publisher -->
@@ -199,15 +219,17 @@
          <visible>false</visible>
       </text>
       <image name="md_publisher_icon" extra="true">
-         <pos>0.760416666666667 0.8125</pos><!-- 365,260 -->
+         <pos>0.760416666666667 0.896875</pos><!-- 365,287 -->
          <path>./_inc/images/icon-ship.svg</path>
          <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
          <color>444444</color>
       </image>
       <text name="md_publisher">
-         <pos>0.791666666666667 0.8125</pos><!-- 380,260 -->
+         <pos>0.795833333333333 0.896875</pos><!-- 382,287 -->
          <color>777777</color>
-         <size>0.177083333333333 0.028125</size>
+         <size>0.15625 0.03125</size><!-- 75, 10 -->
+         <fontSize>0.028125</fontSize><!-- 9 -->
+         <lineSpacing>1</lineSpacing>
       </text>
 
    </view>
