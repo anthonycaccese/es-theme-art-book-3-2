@@ -9,20 +9,23 @@
       <text name="system-name" extra="true">
          <visible>false</visible>
       </text>
-      <video name="md_video">
-         <visible>false</visible>
-      </video>
       <textlist name="gamelist">
          <pos>1 1</pos>
       </textlist>
 
-      <!-- Screenshot -->
-      <image name="md_image">
+      <!-- Video & Screenshot -->
+      <!--<image name="md_image">
          <origin>0.5 0.5</origin>
          <pos>0.5 0.203125</pos>
          <size>1 0</size>
          <zIndex>1</zIndex>
-      </image>
+      </image>-->
+      <video name="md_video">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.203125</pos>
+         <size>1 1</size>
+         <zIndex>1</zIndex>
+      </video>
       <image name="md-media-mask" extra="true">
          <pos>0 0.40625</pos>
          <size>1 0.59375</size>
@@ -40,11 +43,17 @@
          <backgroundColor>222222</backgroundColor>
       </image>-->
 
-      <!-- Box Art -->
-      <image name="md_thumbnail">
+      <!-- Box Art & Marquee -->
+      <image name="md_image">
          <origin>0.5 0</origin>
-         <pos>0.145833333333333 0.46875</pos>
+         <pos>0.145833333333333 0.34375</pos><!-- 30,110 -->
          <maxSize>0.208333333333333 0.4375</maxSize>
+      </image>
+      <image name="md_marquee">
+      	<visible>true</visible>
+         <origin>0.5 0</origin>
+         <pos>0.145833333333333 0.8125</pos><!-- 30,260 -->
+         <maxSize>0.208333333333333 0.125</maxSize><!-- 100,40 -->
       </image>
 
       <!-- Name -->
@@ -66,30 +75,29 @@
          <zIndex>5</zIndex>
       </image>
 
-      <!-- Rating & Release Date -->
-      <rating name="md_rating">
-         <pos>0.291666666666667 0.625</pos><!-- 140,200 -->
-         <color>777777</color>
-      </rating>
-      <datetime name="md_releasedate">
-         <pos>0.458333333333333 0.625</pos><!-- 220,200 -->
-         <color>777777</color>
-      </datetime>
-
       <!-- Genre -->
       <text name="md_genre">
-         <pos>0.291666666666667 0.6875</pos><!-- 140,220 -->
+         <pos>0.291666666666667 0.6125</pos><!-- 140,196 -->
          <size>0 0</size>
          <padding>0.008333333333333 0</padding><!-- 8,0 -->
          <backgroundColor>222222</backgroundColor>
          <color>777777</color>
       </text>
 
+      <!-- Rating & Release Date -->
+      <rating name="md_rating">
+         <pos>0.291666666666667 0.6875</pos><!-- 140,220 -->
+         <color>777777</color>
+      </rating>
+      <datetime name="md_releasedate">
+         <pos>0.454166666666667 0.6875</pos><!-- 218,220 -->
+         <color>777777</color>
+      </datetime>
+
       <!-- Description -->
       <text name="md_description">
-         <size>0.416666666666667 0.155</size>
+         <size>0.375 0.155</size><!-- 375,50 -->
          <pos>0.291666666666667 0.78125</pos><!-- 140,250 -->
-         <color>cccccc</color>
       </text>
 
       <!-- Last Played -->
@@ -97,13 +105,13 @@
          <visible>false</visible>
       </text>
       <image name="md_lastplayed_icon" extra="true">
-         <pos>0.760416666666667 0.46875</pos><!-- 365,150 -->
+         <pos>0.760416666666667 0.484375</pos><!-- 365,155 -->
          <path>./_inc/images/icon-calendar.svg</path>
-         <maxSize>0.020833333333333 0.03125</maxSize><!-- 10,10 -->
+         <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
          <color>444444</color>
       </image>
       <datetime name="md_lastplayed">
-         <pos>0.791666666666667 0.46875</pos><!-- 380,150 -->
+         <pos>0.791666666666667 0.484375</pos><!-- 380,155 -->
          <color>777777</color>
          <size>0.177083333333333 0.028125</size>
       </datetime>
@@ -113,13 +121,13 @@
          <visible>false</visible>
       </text>
       <image name="md_playcount_icon" extra="true">
-         <pos>0.760416666666667 0.515625</pos><!-- 365,165 -->
+         <pos>0.760416666666667 0.53125</pos><!-- 365,170 -->
          <path>./_inc/images/icon-chart.svg</path>
-         <maxSize>0.020833333333333 0.03125</maxSize><!-- 10,10 -->
+         <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
          <color>444444</color>
       </image>
       <text name="md_playcount">
-         <pos>0.791666666666667 0.515625</pos><!-- 380,165 -->
+         <pos>0.791666666666667 0.53125</pos><!-- 380,170 -->
          <color>777777</color>
          <size>0.177083333333333 0.028125</size>
       </text>
@@ -129,19 +137,19 @@
          <visible>false</visible>
       </text>
       <image name="md_gametime_icon" extra="true">
-         <pos>0.760416666666667 0.5625</pos><!-- 365,180 -->
+         <pos>0.760416666666667 0.578125</pos><!-- 365,185 -->
          <path>./_inc/images/icon-clock.svg</path>
-         <maxSize>0.020833333333333 0.03125</maxSize><!-- 10,10 -->
+         <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
          <color>444444</color>
       </image>
       <text name="md_gametime">
-         <pos>0.791666666666667 0.5625</pos><!-- 380,180 -->
+         <pos>0.791666666666667 0.578125</pos><!-- 380,185 -->
          <color>777777</color>
          <size>0.177083333333333 0.028125</size>
       </text>
 
       <image name="md_divider_1" extra="true">
-         <pos>0.75 0.625</pos><!-- 370,200 -->
+         <pos>0.75 0.640625</pos><!-- 370,205 -->
          <size>0.208333333333333 0.003125</size><!-- 100,1 -->
          <color>333333</color>
          <zIndex>10</zIndex>
@@ -152,19 +160,19 @@
          <visible>false</visible>
       </text>
       <image name="md_players_icon" extra="true">
-         <pos>0.760416666666667 0.65625</pos><!-- 365,210 -->
+         <pos>0.760416666666667 0.671875</pos><!-- 365,215 -->
          <path>./_inc/images/icon-players.svg</path>
-         <maxSize>0.020833333333333 0.03125</maxSize><!-- 10,10 -->
+         <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
          <color>444444</color>
       </image>
       <text name="md_players">
          <origin>0 0</origin>
-         <pos>0.791666666666667 0.65625</pos><!-- 380,210 -->
+         <pos>0.791666666666667 0.671875</pos><!-- 380,215 -->
          <alignment>left</alignment>
       </text>
 
       <image name="md_divider_2" extra="true">
-         <pos>0.75 0.71875</pos><!-- 370,230 -->
+         <pos>0.75 0.734375</pos><!-- 370,235 -->
          <size>0.208333333333333 0.003125</size><!-- 100,1 -->
          <color>333333</color>
          <zIndex>10</zIndex>
@@ -175,13 +183,13 @@
          <visible>false</visible>
       </text>
       <image name="md_developer_icon" extra="true">
-         <pos>0.760416666666667 0.75</pos><!-- 365,240 -->
+         <pos>0.760416666666667 0.765625</pos><!-- 365,245 -->
          <path>./_inc/images/icon-wrench.svg</path>
-         <maxSize>0.020833333333333 0.03125</maxSize><!-- 10,10 -->
+         <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
          <color>444444</color>
       </image>
       <text name="md_developer">
-         <pos>0.791666666666667 0.75</pos><!-- 380,240 -->
+         <pos>0.791666666666667 0.765625</pos><!-- 380,245 -->
          <color>777777</color>
          <size>0.177083333333333 0.028125</size>
       </text>
@@ -191,13 +199,13 @@
          <visible>false</visible>
       </text>
       <image name="md_publisher_icon" extra="true">
-         <pos>0.760416666666667 0.796875</pos><!-- 365,255 -->
+         <pos>0.760416666666667 0.8125</pos><!-- 365,260 -->
          <path>./_inc/images/icon-ship.svg</path>
-         <maxSize>0.020833333333333 0.03125</maxSize><!-- 10,10 -->
+         <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
          <color>444444</color>
       </image>
       <text name="md_publisher">
-         <pos>0.791666666666667 0.796875</pos><!-- 380,255 -->
+         <pos>0.791666666666667 0.8125</pos><!-- 380,260 -->
          <color>777777</color>
          <size>0.177083333333333 0.028125</size>
       </text>
