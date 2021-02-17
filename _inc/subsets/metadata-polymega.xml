@@ -46,7 +46,7 @@
       <!-- Box Art & Marquee -->
       <image name="md_image">
          <origin>0.5 0</origin>
-         <pos>0.145833333333333 0.34375</pos><!-- 70,110 -->
+         <pos>0.145833333333333 0.46875</pos><!-- 70,150 -->
          <maxSize>0.208333333333333 0.4375</maxSize>
       </image>
       <!--<image name="md_marquee">
