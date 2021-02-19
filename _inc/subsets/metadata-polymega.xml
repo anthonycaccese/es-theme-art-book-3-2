@@ -32,17 +32,6 @@
          <path>./_inc/images/metadata-polymega.svg</path>
       </image>
 
-      <!-- Favorite -->
-      <!--<image name="md_favorite">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <maxSize>.2 .2</maxSize>
-         <path>./_inc/images/star-filled.svg</path>
-         <color>ff0000</color>
-         <zIndex>10</zIndex>
-         <backgroundColor>222222</backgroundColor>
-      </image>-->
-
       <!-- Box Art & Marquee -->
       <image name="md_image">
          <origin>0.5 0</origin>
@@ -55,6 +44,15 @@
          <pos>0.145833333333333 0.8125</pos>
          <maxSize>0.208333333333333 0.125</maxSize>
       </image>-->
+
+      <!-- Favorite -->
+      <image name="md_favorite">
+         <origin>0 0</origin>
+         <pos>0.291666666666667 0.34375</pos><!-- 140,110 -->
+         <size>0.05 0.075</size><!-- 24,24 -->
+         <path>./_inc/images/icon-favorite.svg</path>
+         <zIndex>10</zIndex>
+      </image>
 
       <!-- Name -->
       <text name="md_name">
