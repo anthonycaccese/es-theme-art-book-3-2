@@ -269,19 +269,19 @@ license:        creative commons CC-BY-NC-SA
       </controllerActivity>
    </view>
    
-   <subset name="background-art" displayName="Background Art">
-      <include name="off" displayName="Off">./_inc/subsets/background-art-off.xml</include>
-      <include name="on" displayName="Centered">./_inc/subsets/background-art-on.xml</include>
-      <include name="full-screen" displayName="Full Screen">./_inc/subsets/background-art-fullscreen.xml</include>
+   <subset name="background-art" displayName="System View Style">
+      <include name="off" displayName="No Artwork">./_inc/subsets/background-art-off.xml</include>
+      <include name="on" displayName="Centered Artwork">./_inc/subsets/background-art-on.xml</include>
+      <include name="full-screen" displayName="Full Screen Artwork">./_inc/subsets/background-art-fullscreen.xml</include>
    </subset>
-   <subset name="metadata" displayName="Metadata">
-      <include name="off" displayName="Off">./_inc/subsets/metadata-off.xml</include>
-      <include name="min" displayName="Min">./_inc/subsets/metadata-min.xml</include>
-      <include name="min-flipped" displayName="Min (Flipped)">./_inc/subsets/metadata-min-flipped.xml</include>
-      <include name="max" displayName="Max">./_inc/subsets/metadata-max.xml</include>
-      <include name="max-flipped" displayName="Max (Flipped)">./_inc/subsets/metadata-max-flipped.xml</include>
+   <subset name="metadata" displayName="Gamelist View Style">
+      <include name="off" displayName="No Metadata">./_inc/subsets/metadata-off.xml</include>
+      <include name="min" displayName="Minimum Metadata">./_inc/subsets/metadata-min.xml</include>
+      <include name="min-flipped" displayName="Minimum Metadata (Flipped)">./_inc/subsets/metadata-min-flipped.xml</include>
+      <include name="max" displayName="Maxium Metadata">./_inc/subsets/metadata-max.xml</include>
+      <include name="max-flipped" displayName="Maxium Metadata (Flipped)">./_inc/subsets/metadata-max-flipped.xml</include>
       <include name="media-only" displayName="Media Only">./_inc/subsets/metadata-media-only.xml</include>
-      <include name="polymega" displayName="*BETA* Polymega">./_inc/subsets/metadata-polymega.xml</include>
+      <include name="polymega" displayName="Polymega">./_inc/subsets/metadata-polymega.xml</include>
    </subset>
    <subset name="88-mph" displayName="1.21 GIGAWATTS!!">
       <include name="off" displayName="Off">./_inc/subsets/88-mph-off.xml</include>
