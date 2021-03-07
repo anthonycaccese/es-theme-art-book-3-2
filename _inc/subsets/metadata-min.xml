@@ -30,7 +30,7 @@
       </datetime>
       <text name="md_description">
          <visible>true</visible>
-         <pos>0.5375 .83</pos>
+         <pos>0.5375 .825</pos>
          <size>0.4 0.1</size>
          <fontSize>0.03</fontSize>
       </text>

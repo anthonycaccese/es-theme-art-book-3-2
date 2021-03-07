@@ -270,9 +270,9 @@ license:        creative commons CC-BY-NC-SA
    </view>
    
    <subset name="background-art" displayName="System View Style">
-      <include name="off" displayName="No Artwork">./_inc/subsets/background-art-off.xml</include>
       <include name="on" displayName="Centered Artwork">./_inc/subsets/background-art-on.xml</include>
       <include name="full-screen" displayName="Full Screen Artwork">./_inc/subsets/background-art-fullscreen.xml</include>
+      <include name="off" displayName="No Artwork">./_inc/subsets/background-art-off.xml</include>
    </subset>
    <subset name="metadata" displayName="Gamelist View Style">
       <include name="off" displayName="No Metadata">./_inc/subsets/metadata-off.xml</include>
