@@ -12,6 +12,14 @@
          <color>ffffff99</color>
          <zIndex>2</zIndex>
       </image>
+      <text name="systemInfo">
+         <fontPath>${bodyFont}</fontPath>
+         <size>0.99 0</size>
+         <pos>0 0.93</pos>
+         <color>ffffff55</color>
+         <alignment>right</alignment>
+         <fontSize>0.03125</fontSize>
+      </text>
    </view>
 
 </theme>

@@ -21,6 +21,16 @@
          <color>11111144</color>
          <zIndex>3</zIndex>
       </image>
+      <text name="systemInfo">
+         <fontPath>${bodyFont}</fontPath>
+         <fontSize>0.0375</fontSize>
+         <origin>0.5 0</origin>
+         <pos>0.5 0.75</pos>
+         <size>0 0</size>
+         <color>ffffff</color>
+         <backgroundColor>00000044</backgroundColor>
+         <padding>0.009 0</padding>
+      </text>
    </view>
    
 </theme>
