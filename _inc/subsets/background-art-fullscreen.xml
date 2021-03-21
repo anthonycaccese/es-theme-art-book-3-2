@@ -23,9 +23,9 @@
       </image>
       <text name="systemInfo">
          <fontPath>${bodyFont}</fontPath>
-		   <pos>0 0.013</pos>
-		   <fontSize>0.0375</fontSize>
-		   <color>FFFFFF55</color>
+         <pos>0 0.013</pos>
+         <fontSize>0.0375</fontSize>
+         <color>FFFFFF55</color>
       </text>
    </view>
    
