@@ -1,6 +1,5 @@
 # Art Book 3:2, an EmulationStation theme for 3:2 resolutions
-A simple theme for Emulation Station based on the look of a coffee table book.  Built and tested on 351Elec for the RG351P handheld
-Discussion for the base Art book theme is ongoing in this thread: https://retropie.org.uk/forum/topic/11728/new-theme-art-book
+A simple theme for Emulation Station based on the look of a coffee table book.  Built and tested on 351Elec for the RG351P handheld.  Discussion for the base Art book theme is ongoing in this thread: https://retropie.org.uk/forum/topic/11728/new-theme-art-book
 
 
 ## Preview
@@ -24,9 +23,7 @@ Discussion for the base Art book theme is ongoing in this thread: https://retrop
 
 ## Details
 
-- Built for 3:2 resolutions (specifically tested on the Anbernic RG351P running 351ELEC)
-- Full list of supported system themes: https://docs.google.com/spreadsheets/d/1gzaP0klzaBaE5_oB1_hQwr46qOmQnacSvSU3o-p5Q7U/edit#gid=0
-- Has many custom themes - mario (Super Mario Bros), zelda (Legend of Zelda), megaman, etc... (see "custom themes" tab in the google doc above for the full list) 
+- Built for 3:2 resolutions (specifically tested on the Anbernic RG351P running 351ELEC) 
 - System, basic, detailed, video and grid views are supported
 - Support for "All Games", "Favorites", "Last Played" and "Custom Collections"
 
@@ -41,7 +38,7 @@ Discussion for the base Art book theme is ongoing in this thread: https://retrop
 - Metadata: Toggle metadata display for games view under "UI Settings" > "Theme Configuration" > "Metadata" (video: https://youtu.be/tCDM-nLCjQI)
   - Options:
   - [Off] Don't display game metadata
-  - [On] Display the following game metadata - Title, Description, Rating, Release Date, Description
+  - [On] Display the following game metadata - Title, Description, Rating, Release Date
 
 
 ## Acknowledgments
