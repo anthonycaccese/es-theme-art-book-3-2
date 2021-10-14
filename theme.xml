@@ -197,6 +197,7 @@ license:        creative commons CC-BY-NC-SA
          <imageColor>ffffffff</imageColor>
       </gridtile>
       <text name="gridtile">
+         <padding>-1 0</padding>
          <alignment>center</alignment>
          <fontPath>${bodyFont}</fontPath>
          <fontSize>0.036</fontSize>
