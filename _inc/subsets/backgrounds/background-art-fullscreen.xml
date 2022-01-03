@@ -4,13 +4,14 @@
 
    <view name="system">
       <image name="background-art" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <path>./_inc/systems/fullscreen/${system.theme}-art-fs.jpg</path>
-         <tile>false</tile>
-         <color>ffffffcc</color>
-         <zIndex>2</zIndex>
+		<origin>0 0</origin>
+		<pos>0 0</pos>
+		<size>1 1</size>
+		<path>./_inc/systems/default/fullscreen.jpg</path>
+		<path>./_inc/systems/fullscreen/${system.theme}-art-fs.jpg</path>
+		<tile>false</tile>
+		<color>ffffffcc</color>
+		<zIndex>2</zIndex>
       </image>
       <image name="top-background" extra="true">
          <origin>0 0</origin>

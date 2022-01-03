@@ -12,7 +12,7 @@ license:        creative commons CC-BY-NC-SA
 			<path>./_inc/systems/default/fullscreen.jpg</path>
 			<path>./_inc/systems/fullscreen/${system.theme}-art-fs.jpg</path>
 			<path>./_inc/systems/fullscreen-alt/${system.theme}-art-fs-alt.jpg</path>
-			<color>ffffff</color>
+			<color>ffffffcc</color>
 		</image>
 		<image ifSubset="background-art:centered" name="background-art" extra="true">
 			<origin>.5 0</origin>
