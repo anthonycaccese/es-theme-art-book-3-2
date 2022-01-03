@@ -7,7 +7,7 @@
          <origin>.5 0</origin>
          <pos>0.5 0</pos>
          <size>0.279166666666667 1</size>
-         <path>./_inc/systems/${system.theme}-art.png</path>
+         <path>./_inc/systems/centered/${system.theme}-art.png</path>
          <tile>false</tile>
          <color>ffffff99</color>
          <zIndex>2</zIndex>

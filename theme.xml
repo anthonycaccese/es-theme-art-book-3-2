@@ -18,7 +18,7 @@ license:        creative commons CC-BY-NC-SA
          <pos>1 1</pos>
       </helpsystem>
       <image name="logo">
-         <path>./_inc/systems/${system.theme}.svg</path>
+         <path>./_inc/systems/logos/${system.theme}.svg</path>
       </image>
       <text name="logoText">
          <fontPath>${logoFont}</fontPath>

@@ -7,7 +7,7 @@
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>
-         <path>./_inc/systems/${system.theme}-art-fs.jpg</path>
+         <path>./_inc/systems/fullscreen/${system.theme}-art-fs.jpg</path>
          <tile>false</tile>
          <color>ffffffcc</color>
          <zIndex>2</zIndex>

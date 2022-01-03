@@ -4,12 +4,12 @@
 
    <view name="system">
       <image ifSubset="background-art:on" name="background-art" extra="true">
-         <path>./_inc/systems/${system.theme}-art.png</path>
-         <path>./_inc/systems/${system.theme}-art-fewt.png</path>
+         <path>./_inc/systems/centered/${system.theme}-art.png</path>
+         <path>./_inc/systems/centered/${system.theme}-art-fewt.png</path>
       </image>
       <image ifSubset="background-art:full-screen" name="background-art" extra="true">
-         <path>./_inc/systems/${system.theme}-art-fs.jpg</path>
-         <path>./_inc/systems/${system.theme}-art-fs-fewt.jpg</path>
+         <path>./_inc/systems/fullscreen/${system.theme}-art-fs.jpg</path>
+         <path>./_inc/systems/fullscreen/${system.theme}-art-fs-fewt.jpg</path>
       </image>
    </view>
    
