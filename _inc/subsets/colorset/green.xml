@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+theme name:     Art Book 3:2
+authors:        Szalik
+license:        creative commons CC-BY-NC-SA
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<variables>
+		<customcolorheader>006600</customcolorheader>
+		<customcolorsubheader>004c00</customcolorsubheader>
+		<customcolorfoooter>003300</customcolorfoooter>
+	</variables>
+</theme>

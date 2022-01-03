@@ -15,6 +15,16 @@ license:        creative commons CC-BY-NC-SA
 		<spacerImage>./_inc/images/space.png</spacerImage>
 	</variables>
 
+	<!-- Color Sets -->
+	<subset name="colorset" displayName="Menu Color: ">
+		<include name="red" displayName="Red">./_inc/subsets/colorset/red.xml</include>
+		<include name="classic" displayName="Classic">./_inc/subsets/colorset/classic.xml</include>
+		<include name="orange" displayName="Orange">./_inc/subsets/colorset/orange.xml</include>
+		<include name="green" displayName="Green">./_inc/subsets/colorset/green.xml</include>
+		<include name="blue" displayName="Blue">./_inc/subsets/colorset/blue.xml</include>
+		<include name="yellow" displayName="Yellow">./_inc/subsets/colorset/yellow.xml</include>
+	</subset>
+
 	<view name="system,basic,detailed,video,grid">
 		<helpsystem name="help">
 			<pos>1 1</pos>
@@ -215,12 +225,12 @@ license:        creative commons CC-BY-NC-SA
 		<menuText name="menutitle">
 			<fontPath>${bodyFont}</fontPath>
 			<fontSize>0.034375</fontSize>
-			<color>ffffff</color>
+			<color>${customcolorheader}</color>
 		</menuText>
 		<menuText name="menufooter">
 			<fontPath>${bodyFont}</fontPath>
 			<fontSize>0.0325</fontSize>
-			<color>666666</color>
+			<color>${customcolorfoooter}</color>
 		</menuText>
 		<menuText name="menutext">
 			<fontPath>${bodyFont}</fontPath>
@@ -233,7 +243,7 @@ license:        creative commons CC-BY-NC-SA
 		<menuTextSmall name="menutextsmall">
 			<fontPath>${bodyFont}</fontPath>
 			<fontSize>0.03</fontSize>
-			<color>777777</color>
+			<color>${customcolorsubheader}</color>
 		</menuTextSmall>
 		<menuBackground name="menubg">
 			<color>111111</color>
