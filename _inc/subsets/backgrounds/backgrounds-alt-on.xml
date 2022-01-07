@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:     Art Book 3:2
+authors:        Szalik
+license:        creative commons CC-BY-NC-SA
+-->
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<image ifSubset="background-art:on" name="background-art" extra="true">
+			<path>./_inc/systems/default/fullscreen.jpg</path>
+			<path>./_inc/systems/fullscreen/${system.theme}-art-fs.jpg</path>
+			<path>./_inc/systems/fullscreen-alt/${system.theme}-art-fs-alt.jpg</path>
+			<color>ffffffcc</color>
+		</image>
+		<image ifSubset="background-art:centered" name="background-art" extra="true">
+			<origin>.5 0</origin>
+			<pos>0.5 0</pos>
+			<size>0.279166666666667 1</size>
+			<path>./_inc/systems/default/centered.png</path>
+			<path>./_inc/systems/centered/${system.theme}-art.png</path>
+			<path>./_inc/systems/centered-alt/${system.theme}-art-alt.png</path>
+			<tile>false</tile>
+			<color>ffffff99</color>
+			<zIndex>2</zIndex>
+		</image>
+	</view>
+   
+</theme>

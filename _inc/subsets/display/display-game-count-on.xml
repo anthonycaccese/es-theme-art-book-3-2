@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+   <view name="system">
+      <text name="systemInfo">
+         <fontPath>${bodyFont}</fontPath>
+		 <pos>0.02 0.915</pos>
+		 <fontSize>0.0375</fontSize>
+		 <alignment>left</alignment>
+		 <color>ffffff</color>
+      </text>
+   </view>
+</theme>

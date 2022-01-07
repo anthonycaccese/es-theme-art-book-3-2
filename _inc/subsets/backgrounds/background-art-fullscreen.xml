@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <view name="system">
+      <image name="background-art" extra="true">
+		<origin>0 0</origin>
+		<pos>0 0</pos>
+		<size>1 1</size>
+		<path>./_inc/systems/default/fullscreen.jpg</path>
+		<path>./_inc/systems/fullscreen/${system.theme}-art-fs.jpg</path>
+		<tile>false</tile>
+		<color>ffffffcc</color>
+		<zIndex>2</zIndex>
+      </image>
+      <image name="top-background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 0.09375</size>
+         <path>${spacerImage}</path>
+         <tile>true</tile>
+         <color>11111144</color>
+         <zIndex>3</zIndex>
+      </image>
+      <text name="systemInfo">
+         <fontPath>${bodyFont}</fontPath>
+         <pos>0 0.013</pos>
+         <fontSize>0.0375</fontSize>
+         <color>FFFFFF55</color>
+      </text>
+   </view>
+   
+</theme>
