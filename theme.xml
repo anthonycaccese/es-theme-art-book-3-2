@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 theme name:     Art Book 3:2
+Author:         Anthony Caccese
 Editor:         Szalik 
-credit:         Anthony Caccese - Base Theme Author
 license:        creative commons CC-BY-NC-SA
 -->
 <theme>
@@ -121,18 +121,18 @@ license:        creative commons CC-BY-NC-SA
 			<color>999999</color>
 		</text>
 		<text name="md_lbl_lastplayed,md_lbl_playcount,md_playcount,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_gametime,md_gametime">
-			<color>444444</color>
+			<color>999999</color>
 		</text>
 		<datetime name="md_releasedate,md_lastplayed">
 			<visible>false</visible>
 			<fontPath>${bodyFont}</fontPath>
-			<color>444444</color>
+			<color>999999</color>
 			<alignment>left</alignment>
 		</datetime>
 		<rating name="md_rating">
 			<visible>false</visible>
 			<fontPath>${bodyFont}</fontPath>
-			<color>444444</color>
+			<color>999999</color>
 			<alignment>left</alignment>
 		</rating>
 		<text name="md_spacer" extra="true">
